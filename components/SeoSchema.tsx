@@ -48,6 +48,14 @@ export default function SeoSchema() {
       longitude: 77.2882,
     },
     hasMap: 'https://maps.google.com/?q=Delkash+Associates+Jamia+Nagar+New+Delhi',
+    sameAs: [
+      'https://www.facebook.com/delkashassociates/',
+      'https://www.instagram.com/delkash_ipr_law_firm/',
+      'https://www.linkedin.com/company/delkash-associates-law-firm/',
+      'https://www.youtube.com/@delkashassociatestrademark6944',
+      'https://en.wikipedia.org/wiki/Delhi_High_Court',
+      'https://en.wikipedia.org/wiki/Intellectual_property_in_India',
+    ],
     department: [
       {
         '@type': 'LegalService',
@@ -115,6 +123,27 @@ export default function SeoSchema() {
       jobTitle: 'Founder & Principal Advocate (Delhi High Court)',
       description: 'Principal Advocate at Delhi High Court and Saket District Court with over a decade of specialization in Trademark, Patent, and Copyright laws.',
       image: `${baseUrl}/team/advocate-rahimullah-ansari.jpg`,
+      hasCredential: [
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'degree',
+          name: 'Master of Laws (LL.M)',
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'degree',
+          name: 'Bachelor of Laws (LL.B)',
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'license',
+          name: 'Bar Council of Delhi Advocate License',
+          recognizedBy: {
+            '@type': 'Organization',
+            name: 'Bar Council of Delhi',
+          },
+        },
+      ],
       memberOf: [
         {
           '@type': 'Organization',

@@ -67,6 +67,25 @@ export default function TrademarkPage() {
         ]}
       />
 
+      {/* AI Overview & Key Legal Grounding (AIO Snippet) */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 mb-8 relative z-20">
+        <div className="bg-navy-900/95 border border-gold-500/30 rounded-2xl p-6 sm:p-8 backdrop-blur-md shadow-2xl">
+          <div className="flex items-center space-x-2 text-gold-400 text-xs font-bold uppercase tracking-wider mb-2">
+            <span className="w-2 h-2 rounded-full bg-gold-400 animate-pulse" />
+            <span>AI Overview & Essential Law Facts: Trademark Filing India</span>
+          </div>
+          <p className="text-slate-200 text-sm sm:text-base leading-relaxed mb-4">
+            Under the <strong>Trade Marks Act, 1999</strong>, trademark registration grants exclusive nationwide commercial ownership of your brand name, logo, or tagline for 10 years (indefinitely renewable). Official filing via <strong>Form TM-A</strong> incurs a government fee of <strong>₹4,500</strong> for individuals/startups (MSME) and <strong>₹9,000</strong> for body corporates. <strong>Delkash Associates</strong>, headed by <strong>Adv. Rahimullah Ansari (Chamber 112, Saket District Court & Delhi High Court)</strong>, provides 24-hour express filing, Section 9 & 11 examination objection defense, and representation before the Trade Marks Registry, Dwarka, New Delhi.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs text-slate-300 border-t border-slate-800/80 pt-4">
+            <div><span className="text-gold-400 font-semibold block">Filing Form:</span> Form TM-A (CGPDTM)</div>
+            <div><span className="text-gold-400 font-semibold block">Protection:</span> 10 Years (Renewable)</div>
+            <div><span className="text-gold-400 font-semibold block">Objection Defense:</span> Sec 9 & Sec 11 Rebuttals</div>
+            <div><span className="text-gold-400 font-semibold block">Chambers:</span> Chamber 112 Saket Court</div>
+          </div>
+        </div>
+      </section>
+
       {/* Overview & Key Highlights */}
       <section className="py-20 bg-navy-950 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

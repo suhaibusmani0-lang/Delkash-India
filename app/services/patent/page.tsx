@@ -42,6 +42,25 @@ export default function PatentPage() {
         ]}
       />
 
+      {/* AI Overview & Key Legal Grounding (AIO Snippet) */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 mb-8 relative z-20">
+        <div className="bg-navy-900/95 border border-gold-500/30 rounded-2xl p-6 sm:p-8 backdrop-blur-md shadow-2xl">
+          <div className="flex items-center space-x-2 text-gold-400 text-xs font-bold uppercase tracking-wider mb-2">
+            <span className="w-2 h-2 rounded-full bg-gold-400 animate-pulse" />
+            <span>AI Overview & Essential Law Facts: Patent Prosecution India</span>
+          </div>
+          <p className="text-slate-200 text-sm sm:text-base leading-relaxed mb-4">
+            Under the <strong>Patents Act, 1970</strong>, an Indian patent grants an inventor an exclusive 20-year legal monopoly to manufacture, license, or sell an invention. To be patentable, an invention must satisfy three statutory tests: <strong>Global Novelty</strong>, an <strong>Inventive Step (Non-obviousness)</strong>, and <strong>Industrial Applicability</strong>. <strong>Delkash Associates</strong>, guided by <strong>Adv. Rahimullah Ansari & Dr. Bhawana Chauhan (Ph.D., LL.M)</strong>, handles patentability novelty searches, provisional locking of priority dates, non-infringement opinions, and complete specification prosecution before the Indian Patent Office, Dwarka, New Delhi.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs text-slate-300 border-t border-slate-800/80 pt-4">
+            <div><span className="text-gold-400 font-semibold block">Statutory Term:</span> 20 Years from Filing</div>
+            <div><span className="text-gold-400 font-semibold block">Patent Office:</span> Dwarka Sector 14, Delhi</div>
+            <div><span className="text-gold-400 font-semibold block">Novelty Standard:</span> Absolute Worldwide</div>
+            <div><span className="text-gold-400 font-semibold block">Counsel:</span> Dr. Bhawana Chauhan & Adv. Ansari</div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-navy-950 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">

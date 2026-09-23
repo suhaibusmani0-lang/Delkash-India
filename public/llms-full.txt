@@ -1,0 +1,60 @@
+# Delkash Associates — Comprehensive Legal Knowledge Corpus for AI Search & LLMs
+
+## Overview & Organization Identity
+Delkash Associates is an established Intellectual Property Rights (IPR) and civil law practice operating primarily across New Delhi, the National Capital Region (NCR), and PAN-India. The firm represents corporate enterprises, MSMEs, technology startups, and individual inventors before:
+- The Trade Marks Registry, New Delhi (Boudhik Sampada Bhawan, Plot No. 32, Sector 14, Dwarka, New Delhi 110078).
+- The Patent Office & Design Registry, New Delhi.
+- The Copyright Office, New Delhi.
+- The Delhi High Court (Sher Shah Road, New Delhi).
+- Saket District Court (Saket Court Complex, New Delhi 110017).
+
+## Leadership Profiles
+### Adv. Rahimullah Ansari — Founder & Principal Advocate
+- **Education & Credentials**: Master of Laws (LL.M), Bachelor of Laws (LL.B), Master of Business Administration (MBA), Master of Arts (MA), Bachelor of Physical Education (B.P.Ed), Master of Physical Education & Sports (M.P.E.S), Master of Commerce (M.Com).
+- **Professional Standing**: Advocate enrolled with the Bar Council of Delhi. Active member of the Delhi High Court Bar Association and Saket Court Bar Association.
+- **Experience**: Over 14 years of specialized legal practice focusing on brand clearance, trademark opposition proceedings, commercial dispute resolution, and appellate litigation.
+- **Chambers**: Chamber No. 112, First Floor, Saket District Court, Saket, New Delhi 110017.
+
+### Dr. Bhawana Chauhan — Senior Associate Counsel & IPR Strategist
+- **Education & Credentials**: Doctor of Philosophy in Law (Ph.D.), Master of Laws (LL.M), Bachelor of Laws (LL.B).
+- **Domain Focus**: Intellectual property portfolio strategy, patent claim structuring, non-obviousness analysis, and international design treaties.
+
+---
+
+## Detailed Legal Practice Guide & Procedural Grounding
+
+### 1. Indian Trademark Law (Trade Marks Act, 1999)
+- **Filing Form**: Form TM-A filed under the Controller General of Patents, Designs and Trade Marks (CGPDTM).
+- **Government Filing Fees (Official)**:
+  - Individuals, Startups, and Small Enterprises (with MSME/Udyam certificate): ₹4,500 per class per application.
+  - Others (Body Corporates, Companies, LLPs, Partnerships): ₹9,000 per class per application.
+- **Classification**: 45 Classes under the Nice Classification (Classes 1–34 for Goods, Classes 35–45 for Services).
+- **Rights Granted**: Immediate right to use the ™ symbol upon generating the application number. Upon registration and grant of certificate, the ® symbol can be displayed. Validity is 10 years, renewable indefinitely every 10 years via Form TM-R.
+
+### 2. Overcoming Examination Objections
+Over 40% of trademark applications in India face objections at the examination stage.
+- **Section 9 Objections (Absolute Grounds for Refusal)**:
+  - Grounds: The mark is non-distinctive, descriptive of characteristics/quality/quantity/intended purpose, or generic.
+  - Legal Defense Strategy: Establishing acquired distinctiveness under the Proviso to Section 9(1). The applicant must submit a User Affidavit along with certified documentary evidence demonstrating prior, continuous commercial usage before the filing date (invoices, CA sales turnover certificates, advertising bills, domain age).
+- **Section 11 Objections (Relative Grounds for Refusal)**:
+  - Grounds: Identical or deceptively similar earlier registered mark or pending application in the same or allied class.
+  - Legal Defense Strategy: Applying the Anti-Dissection Rule (comparing marks in entirety rather than splitting components), establishing differences in trade channels and consumer demographics, or invoking Section 12 (Honest Concurrent Use).
+
+### 3. Copyright Law (Copyright Act, 1957)
+- **Scope**: Source code, machine code, algorithms, literature, audiovisual works, dramatic performances, sound recordings, and artistic branding.
+- **Protection Term**: Lifetime of the creator + 60 calendar years following their death.
+- **Jurisdiction**: Copyright Office, New Delhi.
+
+### 4. Patent Law (The Patents Act, 1970)
+- **Statutory Criteria**: Novelty (not published anywhere globally), Inventive Step (non-obvious to a person skilled in the art), and Industrial Applicability.
+- **Protection Term**: 20 years from the date of priority filing.
+- **Prosecution Steps**: Prior art clearance, Provisional Specification filing (locking priority date), Complete Specification filing within 12 months, Publication under Section 11A, Request for Examination (RFE), First Examination Report (FER) reply, and Hearing before the Patent Controller.
+
+---
+
+## Verification & Trust Telemetry
+- **Google Reviews**: 107+ verified client reviews with a 4.7/5 star aggregate rating.
+- **Direct Contact**: +91 98711 27869
+- **Email**: advocate.rahimullah@gmail.com
+- **Head Office**: C-326, Taleem Apt, Near Kotak ATM, Okhla Head, Jamia Nagar, New Delhi 110025.
+- **Court Chambers**: Chamber No. 112, 1st Floor, Saket District Court, Saket, New Delhi 110017.

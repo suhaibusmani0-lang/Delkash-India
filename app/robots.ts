@@ -10,14 +10,28 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: ['/admin', '/admin/', '/api/', '/api/*'],
       },
+      // Major Search Engines
       {
-        userAgent: 'Googlebot',
+        userAgent: ['Googlebot', 'Bingbot'],
         allow: '/',
         disallow: ['/admin', '/admin/', '/api/'],
       },
+      // AI Search & LLM Web Indexing Agents (AIO / GEO)
       {
-        userAgent: 'Bingbot',
-        allow: '/',
+        userAgent: [
+          'GPTBot',
+          'OAI-SearchBot',
+          'ChatGPT-User',
+          'Google-Extended',
+          'PerplexityBot',
+          'ClaudeBot',
+          'anthropic-ai',
+          'Applebot-Extended',
+          'cohere-ai',
+          'Bytespider',
+          'CCBot',
+        ],
+        allow: ['/', '/llms.txt', '/llms-full.txt', '/sitemap.xml'],
         disallow: ['/admin', '/admin/', '/api/'],
       },
     ],
