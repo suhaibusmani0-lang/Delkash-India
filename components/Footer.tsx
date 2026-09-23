@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import { Scale, Phone } from 'lucide-react';
+import Image from 'next/image';
+import { Phone } from 'lucide-react';
 
 const socialLinks = [
   {
@@ -53,11 +54,17 @@ export default function Footer() {
           
           {/* Col 1: Brand */}
           <div className="space-y-4 lg:col-span-1">
-            <Link href="/" className="inline-flex items-center space-x-3">
-              <div className="w-8 h-8 rounded bg-gold-500 flex items-center justify-center text-navy-950 font-bold shadow-md">
-                <Scale className="w-5 h-5 stroke-[2.2]" />
+            <Link href="/" className="inline-flex items-center space-x-3 group">
+              <div className="w-10 h-10 rounded-full bg-navy-900 border border-gold-500/50 p-1 flex items-center justify-center shadow-lg group-hover:scale-105 group-hover:border-gold-400 transition-all overflow-hidden bg-gradient-to-b from-navy-900 to-navy-950">
+                <Image
+                  src="/logo-gold.png"
+                  alt="Delkash Associates Advocate Emblem Logo"
+                  width={40}
+                  height={40}
+                  className="w-full h-full object-contain drop-shadow"
+                />
               </div>
-              <span className="font-serif text-lg font-bold text-white tracking-wide">
+              <span className="font-serif text-lg font-bold text-white tracking-wide group-hover:text-gold-400 transition-colors">
                 DELKASH ASSOCIATES
               </span>
             </Link>

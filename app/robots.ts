@@ -10,13 +10,11 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: ['/admin', '/admin/', '/api/', '/api/*'],
       },
-      // Major Search Engines
       {
         userAgent: ['Googlebot', 'Bingbot'],
         allow: '/',
         disallow: ['/admin', '/admin/', '/api/'],
       },
-      // AI Search & LLM Web Indexing Agents (AIO / GEO)
       {
         userAgent: [
           'GPTBot',

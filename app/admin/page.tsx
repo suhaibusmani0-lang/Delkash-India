@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   Users,
   BookOpen,
@@ -338,10 +339,16 @@ export default function AdminCRMPage() {
 
         <div className="w-full max-w-md relative z-10">
           <div className="rounded-2xl bg-navy-900/90 border border-gold-500/30 p-8 sm:p-10 shadow-2xl backdrop-blur-2xl">
-            {/* Top Logo & Scale Icon */}
+            {/* Top Logo Emblem */}
             <div className="text-center space-y-3 mb-8">
-              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-gold-400 to-gold-600 flex items-center justify-center text-navy-950 shadow-lg mx-auto">
-                <Scale className="w-8 h-8 stroke-[2.2]" />
+              <div className="w-16 h-16 rounded-full bg-navy-950 border border-gold-500/50 p-1.5 flex items-center justify-center shadow-xl mx-auto overflow-hidden bg-gradient-to-b from-navy-900 to-navy-950">
+                <Image
+                  src="/logo-gold.png"
+                  alt="Delkash Associates Logo Emblem"
+                  width={64}
+                  height={64}
+                  className="w-full h-full object-contain drop-shadow"
+                />
               </div>
               <div>
                 <h1 className="font-serif text-2xl font-bold tracking-tight text-white">
@@ -425,8 +432,14 @@ export default function AdminCRMPage() {
         <div>
           {/* Firm Logo Brand Header */}
           <div className="p-6 border-b border-slate-800/80 flex items-center space-x-3">
-            <div className="w-9 h-9 rounded-lg bg-gold-500 flex items-center justify-center text-navy-950 font-bold shadow-md">
-              <Scale className="w-5 h-5 stroke-[2.4]" />
+            <div className="w-10 h-10 rounded-full bg-navy-950 border border-gold-500/50 p-1 flex items-center justify-center shadow-md overflow-hidden bg-gradient-to-b from-navy-900 to-navy-950 shrink-0">
+              <Image
+                src="/logo-gold.png"
+                alt="Delkash Associates Logo Emblem"
+                width={38}
+                height={38}
+                className="w-full h-full object-contain drop-shadow"
+              />
             </div>
             <div>
               <span className="font-serif text-sm font-bold text-white tracking-wide block leading-tight">

@@ -3,7 +3,8 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Phone, Menu, X, Scale } from 'lucide-react';
+import Image from 'next/image';
+import { Phone, Menu, X } from 'lucide-react';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -44,8 +45,15 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Brand Logo */}
         <Link href="/" className="flex items-center space-x-3 group">
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-gold-400 to-gold-600 flex items-center justify-center text-navy-950 shadow-md group-hover:scale-105 transition-transform">
-            <Scale className="w-6 h-6 stroke-[2.2]" />
+          <div className="w-11 h-11 rounded-full bg-navy-900 border border-gold-500/50 p-1 flex items-center justify-center shadow-lg group-hover:scale-105 group-hover:border-gold-400 transition-all overflow-hidden bg-gradient-to-b from-navy-900 to-navy-950">
+            <Image
+              src="/logo-gold.png"
+              alt="Delkash Associates Advocate Emblem Logo"
+              width={44}
+              height={44}
+              className="w-full h-full object-contain drop-shadow"
+              priority
+            />
           </div>
           <div className="flex flex-col">
             <span className="font-serif text-lg sm:text-xl font-bold tracking-tight text-white group-hover:text-gold-400 transition-colors">

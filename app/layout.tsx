@@ -104,12 +104,16 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: '/icon.png', type: 'image/png' },
+      { url: '/favicon.png', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
       { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
     ],
     apple: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.png', type: 'image/png' },
+      { url: '/icon.png', type: 'image/png' },
     ],
+    shortcut: ['/favicon.png'],
   },
 };
 

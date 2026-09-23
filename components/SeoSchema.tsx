@@ -19,7 +19,7 @@ export default function SeoSchema() {
     description:
       'Premier Intellectual Property law firm based in New Delhi. Specializing in Trademark Registration, Section 9/11 Objection Replies, Trade Marks Registry Hearings, Copyright, Patent Drafting, Design Protection, and Delhi High Court Commercial Litigation.',
     url: baseUrl,
-    logo: `${baseUrl}/icon.svg`,
+    logo: `${baseUrl}/logo.png`,
     image: `${baseUrl}/team/advocate-rahimullah-ansari.jpg`,
     telephone: '+919871127869',
     email: 'advocate.rahimullah@gmail.com',
