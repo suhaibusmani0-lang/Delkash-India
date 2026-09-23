@@ -6,9 +6,26 @@ import { Copyright, Code, FileCheck, ShieldAlert, ArrowRight, CheckCircle2 } fro
 import TiltCard from '@/components/ui/TiltCard';
 
 export const metadata: Metadata = {
-  title: 'Copyright Registration & Infringement Defense | Delkash Associates',
+  title: 'Copyright Registration Delhi | Software Code & Creative Works Lawyer',
   description:
-    'Secure statutory copyright registration for software source code, literary works, musical recordings and artistic branding with Rahimullah Ansari Advocate.',
+    'Secure lifetime + 60 years statutory copyright protection for software source code, websites, literary works, sound recordings, and artistic assets with Adv. Rahimullah Ansari (Delhi High Court). Complete filing before Copyright Office, New Delhi.',
+  keywords: [
+    'Copyright Registration Delhi',
+    'Software Copyright Lawyer India',
+    'Source Code Protection Lawyer',
+    'Copyright Infringement Notice Delhi High Court',
+    'Copyright Office New Delhi Advocate',
+    'Artistic Work Copyright India',
+  ],
+  alternates: {
+    canonical: '/services/copyright',
+  },
+  openGraph: {
+    title: 'Copyright Registration Delhi | Adv. Rahimullah Ansari',
+    description:
+      'Lifetime + 60 years copyright defense for code, music, literature, and films. Rapid filing with Copyright Office New Delhi.',
+    url: 'https://delkashindia.co.in/services/copyright',
+  },
 };
 
 const copyrightWorks = [

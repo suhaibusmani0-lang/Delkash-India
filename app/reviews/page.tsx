@@ -7,9 +7,24 @@ import { Star, ShieldCheck, CheckCircle2, MessageSquare, ArrowRight } from 'luci
 import TiltCard from '@/components/ui/TiltCard';
 
 export const metadata: Metadata = {
-  title: 'Client Reviews & Endorsements | Delkash Associates',
+  title: 'Client Reviews & Google Ratings | Delkash Associates (4.7 ⭐ 107+ Reviews)',
   description:
-    'Read verified client testimonials and Google reviews for Adv. Rahimullah Ansari. 4.7 ⭐ rating across 107+ reviews for trademark and IPR services.',
+    'Read verified client feedback and Google reviews for Adv. Rahimullah Ansari & Delkash Associates. Rated 4.7 ⭐ over 107+ reviews for trademark registration, objection replies, and high court advocacy.',
+  keywords: [
+    'Delkash Associates Reviews',
+    'Advocate Rahimullah Ansari Ratings',
+    'Trademark Lawyer Reviews Delhi',
+    'Best IPR Lawyer Google Reviews',
+  ],
+  alternates: {
+    canonical: '/reviews',
+  },
+  openGraph: {
+    title: 'Client Reviews & Ratings (4.7 ⭐) | Delkash Associates',
+    description:
+      '107+ verified 5-star reviews for Trademark, Patent, and Copyright legal counsel across India.',
+    url: 'https://delkashindia.co.in/reviews',
+  },
 };
 
 export default function ReviewsPage() {

@@ -5,9 +5,27 @@ import ContactSection from '@/components/ContactSection';
 import StatsBar from '@/components/StatsBar';
 
 export const metadata: Metadata = {
-  title: 'Contact Delkash Associates | Chambers of Rahimullah Ansari Advocate',
+  title: 'Contact Delkash Associates | Saket Court Chamber 112 & Jamia Nagar Office',
   description:
-    'Book a legal consultation with Rahimullah Ansari Advocate. Office at C-326, Taleem Apt, Near Kotak ATM, Okhla Head Jamia Nagar New Delhi 110025. Chambers at Chamber No 112, First Floor, Saket District Court, New Delhi 110017. Phone: +91 98711 27869.',
+    'Consult Adv. Rahimullah Ansari & Dr. Bhawana Chauhan. Head Office: C-326, Taleem Apt, Near Kotak ATM, Okhla Head Jamia Nagar New Delhi 110025. Chambers: Chamber No. 112, 1st Floor, Saket District Court, New Delhi 110017. Direct Call & WhatsApp: +91 98711 27869.',
+  keywords: [
+    'Lawyer in Saket Court',
+    'Advocate Chamber 112 Saket Court',
+    'IPR Lawyer Jamia Nagar',
+    'Lawyer Okhla Head New Delhi',
+    'Contact Delkash Associates',
+    'Rahimullah Ansari Phone Number',
+    'Legal Consultation Delhi High Court',
+  ],
+  alternates: {
+    canonical: '/contact',
+  },
+  openGraph: {
+    title: 'Contact Delkash Associates | Saket Court Chambers & Jamia Nagar Office',
+    description:
+      'Book a confidential consultation with Adv. Rahimullah Ansari. Phone: +91 98711 27869.',
+    url: 'https://delkashindia.co.in/contact',
+  },
 };
 
 export default function ContactPage() {

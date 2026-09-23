@@ -107,18 +107,24 @@ export default function ContactSection() {
               </div>
             </div>
 
-            {/* Google Maps Embed */}
-            <div className="rounded-xl overflow-hidden border border-slate-800 h-44 w-full shadow-inner relative">
-              <iframe
-                title="Delkash Associates Office Location"
-                src="https://maps.google.com/maps?q=Okhla%20Head%20Jamia%20Nagar%20New%20Delhi%20110025&t=&z=14&ie=UTF8&iwloc=&output=embed"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen={false}
-                loading="lazy"
-                className="grayscale opacity-80 contrast-125 hover:grayscale-0 transition-all duration-500"
-              ></iframe>
+            {/* Dual Location Map with Quick Switcher */}
+            <div className="space-y-2">
+              <div className="flex items-center justify-between text-[11px] px-1 text-slate-300">
+                <span className="font-semibold text-gold-400">Map View:</span>
+                <span className="text-slate-400">Saket District Court & Jamia Nagar Head Office</span>
+              </div>
+              <div className="rounded-xl overflow-hidden border border-slate-800 h-44 w-full shadow-inner relative">
+                <iframe
+                  title="Delkash Associates Saket District Court Chambers Location"
+                  src="https://maps.google.com/maps?q=Saket%20District%20Court%20New%20Delhi%20110017&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen={false}
+                  loading="lazy"
+                  className="grayscale opacity-80 contrast-125 hover:grayscale-0 transition-all duration-500"
+                ></iframe>
+              </div>
             </div>
           </div>
 

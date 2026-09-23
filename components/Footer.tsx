@@ -52,7 +52,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           
           {/* Col 1: Brand */}
-          <div className="space-y-4 md:col-span-2">
+          <div className="space-y-4 lg:col-span-1">
             <Link href="/" className="inline-flex items-center space-x-3">
               <div className="w-8 h-8 rounded bg-gold-500 flex items-center justify-center text-navy-950 font-bold shadow-md">
                 <Scale className="w-5 h-5 stroke-[2.2]" />
@@ -61,27 +61,18 @@ export default function Footer() {
                 DELKASH ASSOCIATES
               </span>
             </Link>
-            <p className="text-slate-400 text-xs max-w-md leading-relaxed">
+            <p className="text-slate-400 text-xs leading-relaxed">
               Delkash Associates is an Intellectual Property and civil practice law firm headed by 
-              Rahimullah Ansari Advocate. Specializing in trademark protection, copyright enforcement, patent 
-              prosecution, and brand infringement defense across all registries in India.
+              Adv. Rahimullah Ansari (Delhi High Court). Specializing in trademark protection, copyright enforcement, patent 
+              prosecution, and brand litigation across all registries in India.
             </p>
-
-            <div className="space-y-1.5 text-[11px] text-slate-300">
-              <p>
-                <strong className="text-gold-400">Head Office:</strong> C-326, Taleem Apt, Near Kotak ATM, Okhla Head, Jamia Nagar, New Delhi 110025
-              </p>
-              <p>
-                <strong className="text-gold-400">Court Chambers:</strong> Chamber No. 112, First Floor, Saket District Court, Saket, New Delhi 110017
-              </p>
-            </div>
 
             {/* Social Media Links Bar */}
             <div className="pt-2">
               <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-2">
                 Follow Official Channels:
               </span>
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-2.5">
                 {socialLinks.map((social) => (
                   <a
                     key={social.name}
@@ -89,7 +80,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`Visit Delkash Associates on ${social.name}`}
-                    className={`w-9 h-9 rounded-lg bg-navy-900 border border-slate-700/80 flex items-center justify-center text-slate-300 transition-all duration-300 shadow-md ${social.hoverClass} hover:scale-105`}
+                    className={`w-8 h-8 rounded-lg bg-navy-900 border border-slate-700/80 flex items-center justify-center text-slate-300 transition-all duration-300 shadow-md ${social.hoverClass} hover:scale-105`}
                   >
                     {social.icon}
                   </a>
@@ -106,22 +97,22 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/services/trademark" className="hover:text-gold-400 transition-colors">
-                  Trademark Registration
+                  Trademark Registration Delhi
                 </Link>
               </li>
               <li>
                 <Link href="/services/trademark" className="hover:text-gold-400 transition-colors">
-                  TM Objection Rebuttals
+                  TM Objection Rebuttals (Sec 9/11)
                 </Link>
               </li>
               <li>
                 <Link href="/services/copyright" className="hover:text-gold-400 transition-colors">
-                  Copyright Filing & Defense
+                  Copyright Filing & Anti-Piracy
                 </Link>
               </li>
               <li>
                 <Link href="/services/patent" className="hover:text-gold-400 transition-colors">
-                  Patent Prior Art Search
+                  Patent Prior Art Search & Filing
                 </Link>
               </li>
               <li>
@@ -129,13 +120,39 @@ export default function Footer() {
                   Industrial Design Registry
                 </Link>
               </li>
+              <li>
+                <Link href="/blog" className="hover:text-gold-400 transition-colors">
+                  IPR Legal Articles & Insights
+                </Link>
+              </li>
             </ul>
           </div>
 
-          {/* Col 3: Quick Contact & Pages */}
+          {/* Col 3: Court Chambers & Local Geo Presence */}
           <div>
             <h4 className="text-white font-semibold uppercase tracking-wider text-xs mb-3">
-              Direct Chambers
+              Court Chambers & Geo Coverage
+            </h4>
+            <div className="space-y-3 text-[11px] text-slate-300 leading-relaxed">
+              <div>
+                <p className="font-semibold text-gold-400">Saket District Court Chambers:</p>
+                <p className="text-slate-400">Chamber No. 112, 1st Floor, Saket District Court, Saket, New Delhi 110017</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gold-400">South Delhi Head Office:</p>
+                <p className="text-slate-400">C-326, Taleem Apt, Near Kotak ATM, Okhla Head Jamia Nagar, New Delhi 110025</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gold-400">Registry & High Court Jurisdiction:</p>
+                <p className="text-slate-400">Delhi High Court & Trade Marks Registry (Boudhik Sampada Bhawan, Dwarka, Delhi)</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Col 4: Quick Contact & Portal */}
+          <div>
+            <h4 className="text-white font-semibold uppercase tracking-wider text-xs mb-3">
+              Direct Chambers Contact
             </h4>
             <ul className="space-y-2.5">
               <li className="flex items-center space-x-2">
@@ -155,9 +172,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <Link href="/blog" className="text-gold-400 hover:text-gold-300 transition-colors font-medium">
-                  IPR Blog & Legal Publications
-                </Link>
+                <a href="mailto:advocate.rahimullah@gmail.com" className="text-slate-300 hover:text-gold-400 transition-colors">
+                  advocate.rahimullah@gmail.com
+                </a>
               </li>
               <li>
                 <Link href="/about" className="hover:text-gold-400 transition-colors">
@@ -165,13 +182,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="hover:text-gold-400 transition-colors">
-                  IPR Legal Knowledge & FAQ
+                <Link href="/reviews" className="hover:text-gold-400 transition-colors">
+                  Client Reviews (4.7 ⭐ 107+)
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-gold-400 transition-colors">
-                  Chambers Location & Appointment
+                <Link href="/faq" className="hover:text-gold-400 transition-colors">
+                  IPR Legal FAQ
                 </Link>
               </li>
               <li className="pt-2">

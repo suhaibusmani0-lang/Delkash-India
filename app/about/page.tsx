@@ -8,9 +8,28 @@ import { Scale, Award, ShieldCheck, BookOpen, CheckCircle2, ArrowRight } from 'l
 import TiltCard from '@/components/ui/TiltCard';
 
 export const metadata: Metadata = {
-  title: 'Adv. Rahimullah Ansari & Dr. Bhawana Chauhan | Delkash Associates',
+  title: 'Adv. Rahimullah Ansari (Delhi High Court) & Dr. Bhawana Chauhan | Legal Profile',
   description:
-    'Meet lead counsel Adv. Rahimullah Ansari (Delhi High Court) and Dr. Bhawana Chauhan (Ph.D., LL.M, LL.B) at Delkash Associates. Dedicated to Trademark, Copyright, and Patent protection in India.',
+    'Profile of Adv. Rahimullah Ansari (Founder, Chamber No. 112 Saket District Court & Delhi High Court) and Dr. Bhawana Chauhan (Ph.D., LL.M, LL.B). Over a decade of excellence in Trademark, Patent, and Copyright Law in New Delhi.',
+  keywords: [
+    'Advocate Rahimullah Ansari',
+    'Rahimullah Ansari Delhi High Court',
+    'Saket District Court Chamber 112',
+    'Dr Bhawana Chauhan Advocate',
+    'Best IPR Lawyer Delhi',
+    'Trademark Lawyer Saket Court',
+    'Delkash Associates Founder',
+    'Delhi High Court Bar Association Member',
+  ],
+  alternates: {
+    canonical: '/about',
+  },
+  openGraph: {
+    title: 'Adv. Rahimullah Ansari & Dr. Bhawana Chauhan | Delkash Associates',
+    description:
+      'Premier IPR advocates in New Delhi. Saket Court Chambers & Jamia Nagar Head Office. Dedicated to brand protection across India.',
+    url: 'https://delkashindia.co.in/about',
+  },
 };
 
 const milestones = [

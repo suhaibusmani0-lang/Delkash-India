@@ -6,9 +6,25 @@ import Link from 'next/link';
 import { ArrowRight, HelpCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Frequently Asked Questions & IPR Legal Knowledge | Delkash Associates',
+  title: 'Trademark & IPR FAQ India | Filing Fees, Objections, Hearings & Timelines',
   description:
-    'Comprehensive answers to common questions on Trademark, Copyright, Patent registration, timelines, government fees, and objection handling in India.',
+    'Answers to all frequent questions regarding Trademark Registration in India, Section 9/11 objection replies, government fees, TM-A filing, and High Court IPR litigation by Adv. Rahimullah Ansari.',
+  keywords: [
+    'Trademark Registration FAQ India',
+    'How to reply to trademark objection',
+    'Trademark government fee India',
+    'Difference between TM and R symbol',
+    'Trademark hearing process Dwarka',
+  ],
+  alternates: {
+    canonical: '/faq',
+  },
+  openGraph: {
+    title: 'Trademark & IPR FAQ India | Delkash Associates',
+    description:
+      'Clear, authoritative answers on brand protection, copyright registration, patent prosecution, and legal fees.',
+    url: 'https://delkashindia.co.in/faq',
+  },
 };
 
 export default function FaqPage() {

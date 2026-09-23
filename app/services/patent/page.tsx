@@ -6,9 +6,27 @@ import { Lightbulb, Search, FileCode, CheckCircle2, ShieldCheck } from 'lucide-r
 import TiltCard from '@/components/ui/TiltCard';
 
 export const metadata: Metadata = {
-  title: 'Patent Search & Specification Filing Services | Delkash Associates',
+  title: 'Patent Attorney New Delhi | Patent Search, Drafting & Filing India',
   description:
-    'Protect your technical inventions, machinery and industrial processes. Prior art search, provisional and complete patent drafting in India by Rahimullah Ansari Advocate.',
+    'Protect technical inventions and hardware breakthroughs with top patent attorneys in New Delhi. Prior art novelty search, provisional & complete patent drafting under the Indian Patents Act, 1970 by Adv. Rahimullah Ansari & Dr. Bhawana Chauhan.',
+  keywords: [
+    'Patent Attorney New Delhi',
+    'Patent Filing India',
+    'Patent Search Lawyer Delhi',
+    'Provisional Patent Drafting',
+    'Indian Patent Office Dwarka',
+    'Software Patent Lawyer India',
+    'Hardware Patent Attorney Delhi',
+  ],
+  alternates: {
+    canonical: '/services/patent',
+  },
+  openGraph: {
+    title: 'Patent Attorney New Delhi | Delkash Associates',
+    description:
+      'Turn technical inventions into 20-year monopolies. Novelty search & patent drafting by senior IPR counsel.',
+    url: 'https://delkashindia.co.in/services/patent',
+  },
 };
 
 export default function PatentPage() {

@@ -22,27 +22,38 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'Delkash Associates | Trademark & IPR Attorney Rahimullah Ansari New Delhi',
+  title: {
+    default: 'Delkash Associates | Trademark & IPR Attorney Rahimullah Ansari New Delhi',
+    template: '%s | Delkash Associates - Intellectual Property Lawyers',
+  },
   description:
-    'Premier Intellectual Property law firm in New Delhi. Expert Trademark, Copyright, Patent & Design registration and litigation services across India by Rahimullah Ansari Advocate. Rated 4.7 ⭐ on Google.',
+    'Premier Intellectual Property & Trademark law firm in New Delhi. Fast, rejection-proof Trademark, Copyright, Patent & Design registration and Delhi High Court litigation counsel by Adv. Rahimullah Ansari. Saket Court Chamber 112 & Jamia Nagar Head Office. Rated 4.7 ⭐ on Google.',
+  applicationName: 'Delkash Associates Legal Portal',
   keywords: [
     'Trademark Registration Delhi',
     'Trademark Attorney New Delhi',
-    'Rahimullah Ansari Advocate',
-    'Delhi High Court Advocate',
+    'Advocate Rahimullah Ansari',
     'Rahimullah Ansari Delhi High Court',
+    'Saket District Court Chamber 112 Lawyer',
+    'Dr Bhawana Chauhan Advocate',
     'Delkash Associates',
+    'Trademark Objection Reply Section 9 Section 11',
+    'Trademark Hearing Lawyer Delhi',
     'Copyright Registration India',
-    'Patent Attorney Delhi',
-    'Trademark Objection Reply Lawyer',
+    'Patent Attorney Delhi NCR',
     'IPR Lawyer Jamia Nagar Okhla',
     'Design Registration India',
-    'Trademark Hearing Advocate Delhi High Court',
     'Brand Protection Attorney India',
+    'Trade Marks Registry Dwarka Advocate',
+    'Intellectual Property Law Firm South Delhi',
   ],
-  authors: [{ name: 'Rahimullah Ansari Advocate (Delhi High Court)', url: 'https://delkashindia.co.in' }],
+  authors: [
+    { name: 'Adv. Rahimullah Ansari (Delhi High Court)', url: 'https://delkashindia.co.in' },
+    { name: 'Dr. Bhawana Chauhan (IPR Strategist)', url: 'https://delkashindia.co.in/about' },
+  ],
   creator: 'Delkash Associates',
   publisher: 'Delkash Associates',
+  category: 'Legal Services / Intellectual Property Law',
   formatDetection: {
     telephone: true,
     address: true,
@@ -51,11 +62,14 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://delkashindia.co.in'),
   alternates: {
     canonical: '/',
+    languages: {
+      'en-IN': 'https://delkashindia.co.in',
+    },
   },
   openGraph: {
-    title: 'Delkash Associates | Trademark & IPR Attorney Rahimullah Ansari',
+    title: 'Delkash Associates | Trademark & IPR Attorney Rahimullah Ansari New Delhi',
     description:
-      'Premier Intellectual Property law firm in New Delhi. Fast, rejection-proof Trademark & Copyright registration across India. Rated 4.7 ⭐ across 107+ Google reviews.',
+      'Premier Intellectual Property law firm in New Delhi. Expert Trademark, Copyright, Patent & Design registration across India. Saket Court Chambers & Jamia Nagar Head Office. Rated 4.7 ⭐ across 107+ Google reviews.',
     url: 'https://delkashindia.co.in',
     siteName: 'Delkash Associates',
     locale: 'en_IN',
@@ -65,18 +79,28 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Delkash Associates | Trademark & IPR Attorney Rahimullah Ansari',
     description:
-      'Protect your creative work and brand identity with expert legal assistance from Rahimullah Ansari Advocate.',
+      'Protect your brand identity and creative work with experienced counsel from Adv. Rahimullah Ansari & Dr. Bhawana Chauhan.',
   },
   robots: {
     index: true,
     follow: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: true,
+      noimageindex: false,
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    'geo.region': 'IN-DL',
+    'geo.placename': 'New Delhi, Saket Court, Jamia Nagar, Okhla, South Delhi',
+    'geo.position': '28.5222;77.2140',
+    'ICBM': '28.5222, 77.2140',
+    'rating': 'general',
+    'revisit-after': '3 days',
   },
   icons: {
     icon: [

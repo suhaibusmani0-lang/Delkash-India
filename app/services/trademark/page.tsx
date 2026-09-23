@@ -6,9 +6,29 @@ import { ShieldCheck, Search, FileText, Scale, ArrowRight, CheckCircle2, AlertTr
 import TiltCard from '@/components/ui/TiltCard';
 
 export const metadata: Metadata = {
-  title: 'Trademark Registration & Opposition Services | Delkash Associates',
+  title: 'Trademark Registration Delhi | Section 9/11 Objection & Hearing Lawyer',
   description:
-    'Protect your brand name, logo and tagline across India. Same-day TM application filing, Examination reply (Section 9/11) and registry hearing advocacy by Rahimullah Ansari Advocate.',
+    'Express Trademark Registration in New Delhi within 24 hours. Form TM-A filing, Section 9/11 Examination objection replies, and physical/virtual Trade Marks Registry hearing representation by Adv. Rahimullah Ansari (Delhi High Court).',
+  keywords: [
+    'Trademark Registration Delhi',
+    'Trademark Attorney New Delhi',
+    'Section 9 Trademark Objection Reply',
+    'Section 11 Trademark Objection Reply',
+    'Trade Marks Registry Dwarka Advocate',
+    'Trademark Hearing Lawyer Delhi',
+    'Trademark Opposition Lawyer India',
+    'Brand Logo Registration Delhi',
+    'Advocate Rahimullah Ansari Trademark',
+  ],
+  alternates: {
+    canonical: '/services/trademark',
+  },
+  openGraph: {
+    title: 'Trademark Registration Delhi | Adv. Rahimullah Ansari (Delhi High Court)',
+    description:
+      'Fast, rejection-proof Trademark Registration in New Delhi. Defense against registry objections and commercial infringers across India.',
+    url: 'https://delkashindia.co.in/services/trademark',
+  },
 };
 
 const stages = [

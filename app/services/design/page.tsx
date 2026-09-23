@@ -6,9 +6,25 @@ import { Palette, CheckCircle2, Eye, ShieldCheck } from 'lucide-react';
 import TiltCard from '@/components/ui/TiltCard';
 
 export const metadata: Metadata = {
-  title: 'Industrial Design Registration Services | Delkash Associates',
+  title: 'Industrial Design Registration India | Aesthetic Asset Protection Attorney',
   description:
-    'Protect unique 2D & 3D aesthetic shapes, patterns and product ornamentation under the Designs Act, 2000 in India with Delkash Associates.',
+    'Protect unique 2D and 3D product shapes, contours, patterns, and packaging aesthetics under the Designs Act, 2000. 10 to 15 years exclusive design monopoly across India with Adv. Rahimullah Ansari & Delkash Associates.',
+  keywords: [
+    'Industrial Design Registration India',
+    'Design Act 2000 Lawyer Delhi',
+    'Product Shape Protection India',
+    'Packaging Design Registration Lawyer',
+    'Design Infringement Advocate Delhi High Court',
+  ],
+  alternates: {
+    canonical: '/services/design',
+  },
+  openGraph: {
+    title: 'Industrial Design Registration India | Delkash Associates',
+    description:
+      'Safeguard visual product contours, ornamentation, and packaging against commercial counterfeiters.',
+    url: 'https://delkashindia.co.in/services/design',
+  },
 };
 
 export default function DesignPage() {
