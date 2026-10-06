@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'IPR & Trademark Law Blog | Trademark Expert India',
     description:
       'Legal commentary and procedural guides for brand owners, startups, and intellectual property practitioners in India.',
-    url: 'https://delkashindia.co.in/blog',
+    url: 'https://www.trademarkexpertindia.com/blog',
   },
 };
 

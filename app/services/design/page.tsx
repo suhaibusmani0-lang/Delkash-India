@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Industrial Design Registration India | Trademark Expert India',
     description:
       'Safeguard visual product contours, ornamentation, and packaging against commercial counterfeiters.',
-    url: 'https://delkashindia.co.in/services/design',
+    url: 'https://www.trademarkexpertindia.com/services/design',
   },
 };
 

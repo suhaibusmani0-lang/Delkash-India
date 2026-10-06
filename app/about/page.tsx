@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: 'Adv. Rahimullah Ansari & Dr. Bhawana Chauhan | Trademark Expert India',
     description:
       'Premier IPR advocates in New Delhi. Saket Court Chambers & Jamia Nagar Head Office. Dedicated to brand protection across India.',
-    url: 'https://delkashindia.co.in/about',
+    url: 'https://www.trademarkexpertindia.com/about',
   },
 };
 

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: 'Copyright Registration Delhi | Adv. Rahimullah Ansari',
     description:
       'Lifetime + 60 years copyright defense for code, music, literature, and films. Rapid filing with Copyright Office New Delhi.',
-    url: 'https://delkashindia.co.in/services/copyright',
+    url: 'https://www.trademarkexpertindia.com/services/copyright',
   },
 };
 

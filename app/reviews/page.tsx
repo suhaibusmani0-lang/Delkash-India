@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Client Reviews & Ratings (4.7 ⭐) | Trademark Expert India',
     description:
       '107+ verified 5-star reviews for Trademark, Patent, and Copyright legal counsel across India.',
-    url: 'https://delkashindia.co.in/reviews',
+    url: 'https://www.trademarkexpertindia.com/reviews',
   },
 };
 

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://delkashindia.co.in';
+  const baseUrl = 'https://www.trademarkexpertindia.com';
 
   return {
     rules: [

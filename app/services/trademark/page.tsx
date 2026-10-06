@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: 'Trademark Registration Delhi | Adv. Rahimullah Ansari (Delhi High Court)',
     description:
       'Fast, rejection-proof Trademark Registration in New Delhi. Defense against registry objections and commercial infringers across India.',
-    url: 'https://delkashindia.co.in/services/trademark',
+    url: 'https://www.trademarkexpertindia.com/services/trademark',
   },
 };
 

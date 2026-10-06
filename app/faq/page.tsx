@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: 'Trademark & IPR FAQ India | Trademark Expert India',
     description:
       'Clear, authoritative answers on brand protection, copyright registration, patent prosecution, and legal fees.',
-    url: 'https://delkashindia.co.in/faq',
+    url: 'https://www.trademarkexpertindia.com/faq',
   },
 };
 

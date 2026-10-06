@@ -48,8 +48,8 @@ export const metadata: Metadata = {
     'Intellectual Property Law Firm South Delhi',
   ],
   authors: [
-    { name: 'Adv. Rahimullah Ansari (Delhi High Court)', url: 'https://delkashindia.co.in' },
-    { name: 'Dr. Bhawana Chauhan (IPR Strategist)', url: 'https://delkashindia.co.in/about' },
+    { name: 'Adv. Rahimullah Ansari (Delhi High Court)', url: 'https://www.trademarkexpertindia.com' },
+    { name: 'Dr. Bhawana Chauhan (IPR Strategist)', url: 'https://www.trademarkexpertindia.com/about' },
   ],
   creator: 'Trademark Expert India',
   publisher: 'Trademark Expert India',
@@ -59,18 +59,18 @@ export const metadata: Metadata = {
     address: true,
     email: true,
   },
-  metadataBase: new URL('https://delkashindia.co.in'),
+  metadataBase: new URL('https://www.trademarkexpertindia.com'),
   alternates: {
     canonical: '/',
     languages: {
-      'en-IN': 'https://delkashindia.co.in',
+      'en-IN': 'https://www.trademarkexpertindia.com',
     },
   },
   openGraph: {
     title: 'Trademark Expert India | Trademark & IPR Attorney Rahimullah Ansari New Delhi',
     description:
       'Premier Intellectual Property law firm in New Delhi. Expert Trademark, Copyright, Patent & Design registration across India. Saket Court Chambers & Jamia Nagar Head Office. Rated 4.7 ⭐ across 107+ Google reviews.',
-    url: 'https://delkashindia.co.in',
+    url: 'https://www.trademarkexpertindia.com',
     siteName: 'Trademark Expert India',
     locale: 'en_IN',
     type: 'website',

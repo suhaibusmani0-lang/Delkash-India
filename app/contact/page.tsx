@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: 'Contact Trademark Expert India | Saket Court Chambers & Jamia Nagar Office',
     description:
       'Book a confidential consultation with Adv. Rahimullah Ansari. Phone: +91 98711 27869.',
-    url: 'https://delkashindia.co.in/contact',
+    url: 'https://www.trademarkexpertindia.com/contact',
   },
 };
 

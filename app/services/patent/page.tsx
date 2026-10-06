@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: 'Patent Attorney New Delhi | Trademark Expert India',
     description:
       'Turn technical inventions into 20-year monopolies. Novelty search & patent drafting by senior IPR counsel.',
-    url: 'https://delkashindia.co.in/services/patent',
+    url: 'https://www.trademarkexpertindia.com/services/patent',
   },
 };
 

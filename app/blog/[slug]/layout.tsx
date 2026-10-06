@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     };
   }
 
-  const baseUrl = 'https://delkashindia.co.in';
+  const baseUrl = 'https://www.trademarkexpertindia.com';
 
   return {
     title: `${article.title} | Trademark Expert India`,

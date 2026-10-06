@@ -2,7 +2,7 @@ import React from 'react';
 import { faqs } from '@/lib/faqData';
 
 export default function SeoSchema() {
-  const baseUrl = 'https://delkashindia.co.in';
+  const baseUrl = 'https://www.trademarkexpertindia.com';
 
   // 1. LegalService & Multi-Location Branch Schema
   const legalServiceSchema = {

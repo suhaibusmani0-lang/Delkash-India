@@ -6,7 +6,7 @@ import Blog from '@/models/Blog';
 export const revalidate = 3600; // Revalidate every hour
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://delkashindia.co.in';
+  const baseUrl = 'https://www.trademarkexpertindia.com';
   const currentDate = new Date();
 
   // Static Core Landing & Service Pages

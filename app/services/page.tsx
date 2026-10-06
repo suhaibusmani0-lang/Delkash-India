@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'IPR Legal Practice Areas & Services | Trademark Expert India',
     description:
       'Explore specialized IPR services: Trademark, Copyright, Patent and Industrial Design Registration in India. Full PAN India legal representation by Rahimullah Ansari Advocate.',
-    url: 'https://delkashindia.co.in/services',
+    url: 'https://www.trademarkexpertindia.com/services',
   },
 };
 
