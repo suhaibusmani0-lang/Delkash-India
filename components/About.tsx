@@ -9,26 +9,32 @@ import Link from 'next/link';
 export default function About() {
   const teamMembers = [
     {
-      name: 'Rahimullah Ansari Advocate',
+      name: 'Advocate Rahimullah Ansari',
       role: 'Founder & Principal Attorney',
       court: 'Advocate, Delhi High Court',
       chamber: 'Chamber No. 112, First Floor, Saket District Court, New Delhi',
       degrees: 'LL.M, LL.B, MBA, MA, B.P.Ed, M.P.E.S, M.Com',
+      phone: '+91 98711 27869',
+      phoneRaw: '+919871127869',
+      linkedin: 'https://www.linkedin.com/in/advocaterahimullahansari?utm_source=share_via&utm_content=profile&utm_medium=member_android',
       image: '/team/advocate-rahimullah-ansari.jpg',
-      bio: 'Seasoned intellectual property advocate and lead counsel at Delkash Associates. With over 15+ years of litigation practice before the Delhi High Court and Trade Marks Registry, Adv. Ansari combines formidable statutory mastery with multidisciplinary commercial and corporate strategies to defend high-value brands across India.',
+      bio: 'Seasoned intellectual property advocate and lead counsel at Trademark Expert India. With over 15+ years of litigation practice before the Delhi High Court and Trade Marks Registry, Adv. Ansari combines formidable statutory mastery with multidisciplinary commercial and corporate strategies to defend high-value brands across India.',
       focus: ['Trademark Opposition Hearings', 'Section 9 & 11 Refusal Defense', 'High Court IPR Injunctions', 'Patent & Design Prosecution'],
       whatsappText: 'Hello Adv. Rahimullah Ansari, I would like to consult regarding Trademark/IPR legal services.',
     },
     {
-      name: 'Dr. Bhawana Chauhan',
+      name: 'Advocate Bhawana (Dr. Bhawana Chauhan)',
       role: 'Senior Associate Counsel & IPR Strategist',
       court: 'Advocate & Legal Scholar',
-      chamber: 'Delkash Associates Chambers, Okhla Head Jamia Nagar, New Delhi',
+      chamber: 'Trademark Expert India Chambers, Okhla Head Jamia Nagar, New Delhi',
       degrees: 'Ph.D., LL.M, LL.B',
+      phone: '+91 80763 03405',
+      phoneRaw: '+918076303405',
+      linkedin: 'https://orcid.org/0009-0001-0656-2683',
       image: '/team/dr-bhawana-chauhan.jpg',
-      bio: 'Distinguished legal academic and corporate intellectual property consultant at Delkash Associates. Specializes in copyright enforcement, statutory Examination Report rebuttals, corporate brand risk mitigation, and commercial software licensing agreements for technology startups and enterprise enterprises.',
+      bio: 'Distinguished legal academic and corporate intellectual property consultant at Trademark Expert India. Specializes in copyright enforcement, statutory Examination Report rebuttals, corporate brand risk mitigation, and commercial software licensing agreements for technology startups and enterprise enterprises.',
       focus: ['Copyright Registration & Code IP', 'Brand Clearance & Risk Audits', 'Notice & Opposition Rebuttals', 'Corporate Compliance & Licensing'],
-      whatsappText: 'Hello Dr. Bhawana Chauhan, I would like to consult regarding Copyright/Trademark legal services.',
+      whatsappText: 'Hello Adv. Bhawana, I would like to consult regarding Copyright/Trademark legal services.',
     },
   ];
 
@@ -46,7 +52,7 @@ export default function About() {
             Advocates Dedicated to <span className="text-gradient-gold">Absolute Brand Protection</span>
           </h2>
           <p className="text-slate-400 text-sm sm:text-base leading-relaxed">
-            Delkash Associates is anchored by seasoned advocates possessing formidable academic credentials, 
+            Trademark Expert India is anchored by seasoned advocates possessing formidable academic credentials, 
             High Court standing, and deep specialization in Indian Intellectual Property jurisprudence.
           </p>
         </div>
@@ -144,8 +150,32 @@ export default function About() {
 
                   </div>
 
+                  {/* Contact Number & LinkedIn Profile Bar */}
+                  <div className="pt-4 border-t border-slate-800/80 mt-4 flex items-center justify-between gap-2">
+                    <a
+                      href={`tel:${member.phoneRaw}`}
+                      className="flex items-center space-x-1.5 text-xs font-semibold text-slate-200 hover:text-gold-400 transition-colors"
+                      title="Call Advocate Directly"
+                    >
+                      <Phone className="w-3.5 h-3.5 text-gold-400" />
+                      <span>{member.phone}</span>
+                    </a>
+                    <a
+                      href={member.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-[#0A66C2]/15 text-[#0A66C2] hover:bg-[#0A66C2] hover:text-white border border-[#0A66C2]/30 transition-all font-semibold text-xs shadow-sm"
+                      title="LinkedIn / Professional Profile"
+                    >
+                      <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                      </svg>
+                      <span>LinkedIn</span>
+                    </a>
+                  </div>
+
                   {/* Actions & Direct WhatsApp Consultation Trigger */}
-                  <div className="pt-6 border-t border-slate-800/80 mt-6 flex flex-col sm:flex-row items-center gap-3">
+                  <div className="pt-3 flex flex-col sm:flex-row items-center gap-3">
                     <a
                       href={`https://wa.me/919871127869?text=${encodeURIComponent(member.whatsappText)}`}
                       target="_blank"
@@ -185,12 +215,20 @@ export default function About() {
               Chamber No 112, First Floor, Saket District Court, Saket, New Delhi 110017
             </p>
           </div>
-          <a
-            href="tel:+919871127869"
-            className="w-full md:w-auto text-center px-6 py-3 rounded-xl bg-gold-500 text-navy-950 font-bold text-xs uppercase tracking-wider shadow-lg hover:bg-gold-400 transition-all shrink-0"
-          >
-            Direct Helpline: +91 98711 27869
-          </a>
+          <div className="flex flex-col sm:flex-row gap-2 shrink-0 w-full md:w-auto">
+            <a
+              href="tel:+919871127869"
+              className="text-center px-4 py-2.5 rounded-xl bg-gold-500 text-navy-950 font-bold text-xs uppercase tracking-wider shadow-lg hover:bg-gold-400 transition-all"
+            >
+              Rahimullah: +91 98711 27869
+            </a>
+            <a
+              href="tel:+918076303405"
+              className="text-center px-4 py-2.5 rounded-xl bg-gold-500/20 border border-gold-500/40 text-gold-300 font-bold text-xs uppercase tracking-wider hover:bg-gold-500 hover:text-navy-950 transition-all"
+            >
+              Bhawana: +91 80763 03405
+            </a>
+          </div>
         </div>
 
       </div>

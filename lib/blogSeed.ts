@@ -38,7 +38,7 @@ Section 11 objections occur when the Examiner identifies an identical or decepti
 2. File Form TM-M if requesting an extension or amending the user affidavit.
 3. Attach certified documentary evidence: GST invoices, CA turnover certificates, domain registration receipts, and marketing proofs.
 
-*For personalized consultation or representation in trademark show-cause hearings, reach out directly to Delkash Associates.*
+*For personalized consultation or representation in trademark show-cause hearings, reach out directly to Trademark Expert India.*
     `,
     author: 'Rahimullah Ansari Advocate',
     authorTitle: 'Advocate, Delhi High Court',
@@ -72,7 +72,7 @@ In India, computer software and programs are protected as **Literary Works** und
 - **No Objection Certificate (NOC):** Crucial employee and freelance contractor assignment deeds must be appended proving that the intellectual property vests completely in the corporate entity.
 - **Term of Protection:** In India, copyright for software owned by a corporate entity lasts for **60 years** from the year of publication.
 
-*Delkash Associates advises technology firms across India on software IP audits, licensing agreements, and anti-infringement injunctions.*
+*Trademark Expert India advises technology firms across India on software IP audits, licensing agreements, and anti-infringement injunctions.*
     `,
     author: 'Rahimullah Ansari Advocate',
     authorTitle: 'Advocate, Delhi High Court',

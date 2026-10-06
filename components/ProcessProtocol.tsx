@@ -54,7 +54,7 @@ export default function ProcessProtocol() {
             The 4-Step Watertight Protection Protocol
           </h2>
           <p className="text-slate-400 text-sm sm:text-base mt-3">
-            How Delkash Associates secures your trademarks with precision to guarantee rejection-proof filings.
+            How Trademark Expert India secures your trademarks with precision to guarantee rejection-proof filings.
           </p>
         </div>
 

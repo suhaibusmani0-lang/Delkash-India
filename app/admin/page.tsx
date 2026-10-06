@@ -149,7 +149,7 @@ export default function AdminCRMPage() {
     const cleanPass = loginPassword.trim();
 
     const validIds = ['admin', 'delkashassociates@gmail.com', 'rahimullah'];
-    const validPassword = 'Delkash@2026';
+    const validPassword = 'Trademark Expert India@2026';
 
     if (validIds.includes(cleanId) && cleanPass === validPassword) {
       setIsAuthenticated(true);
@@ -344,7 +344,7 @@ export default function AdminCRMPage() {
               <div className="w-16 h-16 rounded-full bg-navy-950 border border-gold-500/50 p-1.5 flex items-center justify-center shadow-xl mx-auto overflow-hidden bg-gradient-to-b from-navy-900 to-navy-950">
                 <Image
                   src="/logo-gold.png"
-                  alt="Delkash Associates Logo Emblem"
+                  alt="Trademark Expert India Logo Emblem"
                   width={64}
                   height={64}
                   className="w-full h-full object-contain drop-shadow"
@@ -352,7 +352,7 @@ export default function AdminCRMPage() {
               </div>
               <div>
                 <h1 className="font-serif text-2xl font-bold tracking-tight text-white">
-                  DELKASH ASSOCIATES
+                  TRADEMARK EXPERT INDIA
                 </h1>
                 <p className="text-[11px] font-semibold text-gold-400 tracking-widest uppercase mt-0.5">
                   Chambers CRM &amp; Legal Desk
@@ -435,7 +435,7 @@ export default function AdminCRMPage() {
             <div className="w-10 h-10 rounded-full bg-navy-950 border border-gold-500/50 p-1 flex items-center justify-center shadow-md overflow-hidden bg-gradient-to-b from-navy-900 to-navy-950 shrink-0">
               <Image
                 src="/logo-gold.png"
-                alt="Delkash Associates Logo Emblem"
+                alt="Trademark Expert India Logo Emblem"
                 width={38}
                 height={38}
                 className="w-full h-full object-contain drop-shadow"
@@ -443,7 +443,7 @@ export default function AdminCRMPage() {
             </div>
             <div>
               <span className="font-serif text-sm font-bold text-white tracking-wide block leading-tight">
-                DELKASH CRM
+                TRADEMARK EXPERT INDIA CRM
               </span>
               <span className="text-[10px] text-gold-400 font-semibold uppercase tracking-wider">
                 Advocate Portal
@@ -689,7 +689,7 @@ export default function AdminCRMPage() {
                   {filteredLeads.map((lead) => {
                     const cleanPhone = lead.phone.replace(/[^0-9]/g, '');
                     const waLink = `https://wa.me/${cleanPhone.startsWith('91') ? cleanPhone : '91' + cleanPhone}?text=${encodeURIComponent(
-                      `Hello ${lead.name}, this is Adv. Rahimullah Ansari from Delkash Associates regarding your consultation inquiry for ${lead.service}.`
+                      `Hello ${lead.name}, this is Adv. Rahimullah Ansari from Trademark Expert India regarding your consultation inquiry for ${lead.service}.`
                     )}`;
 
                     return (

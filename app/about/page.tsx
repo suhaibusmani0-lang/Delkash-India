@@ -18,14 +18,14 @@ export const metadata: Metadata = {
     'Dr Bhawana Chauhan Advocate',
     'Best IPR Lawyer Delhi',
     'Trademark Lawyer Saket Court',
-    'Delkash Associates Founder',
+    'Trademark Expert India Founder',
     'Delhi High Court Bar Association Member',
   ],
   alternates: {
     canonical: '/about',
   },
   openGraph: {
-    title: 'Adv. Rahimullah Ansari & Dr. Bhawana Chauhan | Delkash Associates',
+    title: 'Adv. Rahimullah Ansari & Dr. Bhawana Chauhan | Trademark Expert India',
     description:
       'Premier IPR advocates in New Delhi. Saket Court Chambers & Jamia Nagar Head Office. Dedicated to brand protection across India.',
     url: 'https://delkashindia.co.in/about',
@@ -61,7 +61,7 @@ export default function AboutPage() {
       <PageHeader
         badge="Chambers Leadership & Legal Counsel"
         title="Adv. Rahimullah Ansari & Dr. Bhawana Chauhan"
-        description="Senior Counsel at Delkash Associates, New Delhi. Featuring Adv. Rahimullah Ansari (Delhi High Court — LL.M, LL.B, MBA, M.Com) and Dr. Bhawana Chauhan (Ph.D., LL.M, LL.B), dedicated to defending intellectual property rights and corporate brand identities across India."
+        description="Senior Counsel at Trademark Expert India, New Delhi. Featuring Adv. Rahimullah Ansari (Delhi High Court — LL.M, LL.B, MBA, M.Com) and Dr. Bhawana Chauhan (Ph.D., LL.M, LL.B), dedicated to defending intellectual property rights and corporate brand identities across India."
         breadcrumbs={[{ label: 'About Counsel' }]}
       />
 

@@ -8,7 +8,7 @@ import { ShieldCheck, Copyright, Lightbulb, Palette, ArrowRight, CheckCircle2 } 
 import TiltCard from '@/components/ui/TiltCard';
 
 export const metadata: Metadata = {
-  title: 'IPR Legal Practice Areas & Services | Delkash Associates',
+  title: 'IPR Legal Practice Areas & Services | Trademark Expert India',
   description:
     'Explore specialized IPR services: Trademark, Copyright, Patent and Industrial Design Registration in India. Full PAN India legal representation by Rahimullah Ansari Advocate.',
 };

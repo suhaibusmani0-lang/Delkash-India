@@ -5,7 +5,7 @@ import ContactSection from '@/components/ContactSection';
 import StatsBar from '@/components/StatsBar';
 
 export const metadata: Metadata = {
-  title: 'Contact Delkash Associates | Saket Court Chamber 112 & Jamia Nagar Office',
+  title: 'Contact Trademark Expert India | Saket Court Chamber 112 & Jamia Nagar Office',
   description:
     'Consult Adv. Rahimullah Ansari & Dr. Bhawana Chauhan. Head Office: C-326, Taleem Apt, Near Kotak ATM, Okhla Head Jamia Nagar New Delhi 110025. Chambers: Chamber No. 112, 1st Floor, Saket District Court, New Delhi 110017. Direct Call & WhatsApp: +91 98711 27869.',
   keywords: [
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     'Advocate Chamber 112 Saket Court',
     'IPR Lawyer Jamia Nagar',
     'Lawyer Okhla Head New Delhi',
-    'Contact Delkash Associates',
+    'Contact Trademark Expert India',
     'Rahimullah Ansari Phone Number',
     'Legal Consultation Delhi High Court',
   ],
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: '/contact',
   },
   openGraph: {
-    title: 'Contact Delkash Associates | Saket Court Chambers & Jamia Nagar Office',
+    title: 'Contact Trademark Expert India | Saket Court Chambers & Jamia Nagar Office',
     description:
       'Book a confidential consultation with Adv. Rahimullah Ansari. Phone: +91 98711 27869.',
     url: 'https://delkashindia.co.in/contact',

@@ -39,15 +39,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   if (!article) {
     return {
-      title: 'Legal Article | Delkash Associates',
-      description: 'Intellectual Property legal publication by Delkash Associates, New Delhi.',
+      title: 'Legal Article | Trademark Expert India',
+      description: 'Intellectual Property legal publication by Trademark Expert India, New Delhi.',
     };
   }
 
   const baseUrl = 'https://delkashindia.co.in';
 
   return {
-    title: `${article.title} | Delkash Associates`,
+    title: `${article.title} | Trademark Expert India`,
     description: article.summary,
     authors: [{ name: article.author }],
     alternates: {

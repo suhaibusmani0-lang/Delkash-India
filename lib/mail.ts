@@ -29,14 +29,14 @@ export async function sendLeadNotificationEmail(lead: SendLeadNotificationParams
   const recipient = process.env.LEAD_RECEIVER_EMAIL || process.env.SMTP_USER;
   
   const mailOptions = {
-    from: `"Delkash IPR Lead Desk" <${process.env.SMTP_USER}>`,
+    from: `"Trademark Expert India IPR Lead Desk" <${process.env.SMTP_USER}>`,
     to: recipient,
     subject: `⚡ New High-Intent Lead: ${lead.name} (${lead.service})`,
     html: `
       <div style="font-family: Arial, sans-serif; background-color: #f8fafc; padding: 24px;">
         <div style="max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 8px; border: 1px solid #e2e8f0; overflow: hidden;">
           <div style="background-color: #0F172A; padding: 20px; text-align: center;">
-            <h2 style="color: #D4AF37; margin: 0; font-size: 22px;">Delkash Associates</h2>
+            <h2 style="color: #D4AF37; margin: 0; font-size: 22px;">Trademark Expert India</h2>
             <p style="color: #94a3b8; margin: 4px 0 0 0; font-size: 13px;">Intellectual Property Legal Consultation Desk</p>
           </div>
           <div style="padding: 24px;">
@@ -72,7 +72,7 @@ export async function sendLeadNotificationEmail(lead: SendLeadNotificationParams
             </div>
           </div>
           <div style="background-color: #f1f5f9; padding: 12px; text-align: center; font-size: 12px; color: #64748b;">
-            Confidential Attorney-Client Notification • Delkash Associates (Saket Court Chambers & Jamia Nagar Office, New Delhi)
+            Confidential Attorney-Client Notification • Trademark Expert India (Saket Court Chambers & Jamia Nagar Office, New Delhi)
           </div>
         </div>
       </div>

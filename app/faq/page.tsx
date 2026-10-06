@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: '/faq',
   },
   openGraph: {
-    title: 'Trademark & IPR FAQ India | Delkash Associates',
+    title: 'Trademark & IPR FAQ India | Trademark Expert India',
     description:
       'Clear, authoritative answers on brand protection, copyright registration, patent prosecution, and legal fees.',
     url: 'https://delkashindia.co.in/faq',
@@ -33,7 +33,7 @@ export default function FaqPage() {
       <PageHeader
         badge="Legal Knowledge Center"
         title="Frequently Asked Questions & Legal Guidance"
-        description="Clear, authoritative answers from Delkash Associates on trademark filing, objection rebuttals, copyright protection, and statutory fees."
+        description="Clear, authoritative answers from Trademark Expert India on trademark filing, objection rebuttals, copyright protection, and statutory fees."
         breadcrumbs={[{ label: 'FAQ' }]}
       />
 

@@ -7,11 +7,11 @@ import { Star, ShieldCheck, CheckCircle2, MessageSquare, ArrowRight } from 'luci
 import TiltCard from '@/components/ui/TiltCard';
 
 export const metadata: Metadata = {
-  title: 'Client Reviews & Google Ratings | Delkash Associates (4.7 ⭐ 107+ Reviews)',
+  title: 'Client Reviews & Google Ratings | Trademark Expert India (4.7 ⭐ 107+ Reviews)',
   description:
-    'Read verified client feedback and Google reviews for Adv. Rahimullah Ansari & Delkash Associates. Rated 4.7 ⭐ over 107+ reviews for trademark registration, objection replies, and high court advocacy.',
+    'Read verified client feedback and Google reviews for Adv. Rahimullah Ansari & Trademark Expert India. Rated 4.7 ⭐ over 107+ reviews for trademark registration, objection replies, and high court advocacy.',
   keywords: [
-    'Delkash Associates Reviews',
+    'Trademark Expert India Reviews',
     'Advocate Rahimullah Ansari Ratings',
     'Trademark Lawyer Reviews Delhi',
     'Best IPR Lawyer Google Reviews',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: '/reviews',
   },
   openGraph: {
-    title: 'Client Reviews & Ratings (4.7 ⭐) | Delkash Associates',
+    title: 'Client Reviews & Ratings (4.7 ⭐) | Trademark Expert India',
     description:
       '107+ verified 5-star reviews for Trademark, Patent, and Copyright legal counsel across India.',
     url: 'https://delkashindia.co.in/reviews',
@@ -32,7 +32,7 @@ export default function ReviewsPage() {
     <div className="pb-24">
       <PageHeader
         badge="Verified Reputation"
-        title="What Our Clients Say About Delkash Associates"
+        title="What Our Clients Say About Trademark Expert India"
         description="Rated 4.7 Stars across 107+ Google Reviews by business founders, startup creators, and corporate journals nationwide."
         breadcrumbs={[{ label: 'Client Reviews' }]}
       />

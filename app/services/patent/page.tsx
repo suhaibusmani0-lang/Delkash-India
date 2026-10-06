@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     canonical: '/services/patent',
   },
   openGraph: {
-    title: 'Patent Attorney New Delhi | Delkash Associates',
+    title: 'Patent Attorney New Delhi | Trademark Expert India',
     description:
       'Turn technical inventions into 20-year monopolies. Novelty search & patent drafting by senior IPR counsel.',
     url: 'https://delkashindia.co.in/services/patent',
@@ -50,7 +50,7 @@ export default function PatentPage() {
             <span>AI Overview & Essential Law Facts: Patent Prosecution India</span>
           </div>
           <p className="text-slate-200 text-sm sm:text-base leading-relaxed mb-4">
-            Under the <strong>Patents Act, 1970</strong>, an Indian patent grants an inventor an exclusive 20-year legal monopoly to manufacture, license, or sell an invention. To be patentable, an invention must satisfy three statutory tests: <strong>Global Novelty</strong>, an <strong>Inventive Step (Non-obviousness)</strong>, and <strong>Industrial Applicability</strong>. <strong>Delkash Associates</strong>, guided by <strong>Adv. Rahimullah Ansari & Dr. Bhawana Chauhan (Ph.D., LL.M)</strong>, handles patentability novelty searches, provisional locking of priority dates, non-infringement opinions, and complete specification prosecution before the Indian Patent Office, Dwarka, New Delhi.
+            Under the <strong>Patents Act, 1970</strong>, an Indian patent grants an inventor an exclusive 20-year legal monopoly to manufacture, license, or sell an invention. To be patentable, an invention must satisfy three statutory tests: <strong>Global Novelty</strong>, an <strong>Inventive Step (Non-obviousness)</strong>, and <strong>Industrial Applicability</strong>. <strong>Trademark Expert India</strong>, guided by <strong>Adv. Rahimullah Ansari & Dr. Bhawana Chauhan (Ph.D., LL.M)</strong>, handles patentability novelty searches, provisional locking of priority dates, non-infringement opinions, and complete specification prosecution before the Indian Patent Office, Dwarka, New Delhi.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs text-slate-300 border-t border-slate-800/80 pt-4">
             <div><span className="text-gold-400 font-semibold block">Statutory Term:</span> 20 Years from Filing</div>

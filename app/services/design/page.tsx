@@ -8,7 +8,7 @@ import TiltCard from '@/components/ui/TiltCard';
 export const metadata: Metadata = {
   title: 'Industrial Design Registration India | Aesthetic Asset Protection Attorney',
   description:
-    'Protect unique 2D and 3D product shapes, contours, patterns, and packaging aesthetics under the Designs Act, 2000. 10 to 15 years exclusive design monopoly across India with Adv. Rahimullah Ansari & Delkash Associates.',
+    'Protect unique 2D and 3D product shapes, contours, patterns, and packaging aesthetics under the Designs Act, 2000. 10 to 15 years exclusive design monopoly across India with Adv. Rahimullah Ansari & Trademark Expert India.',
   keywords: [
     'Industrial Design Registration India',
     'Design Act 2000 Lawyer Delhi',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: '/services/design',
   },
   openGraph: {
-    title: 'Industrial Design Registration India | Delkash Associates',
+    title: 'Industrial Design Registration India | Trademark Expert India',
     description:
       'Safeguard visual product contours, ornamentation, and packaging against commercial counterfeiters.',
     url: 'https://delkashindia.co.in/services/design',
@@ -54,7 +54,7 @@ export default function DesignPage() {
               <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
                 Under the Indian Designs Act, 2000, protection is granted solely to visual features of shape, 
                 configuration, pattern, ornamentation or composition of lines or colors applied to any article. 
-                Delkash Associates handles representation drafting and rapid examination before the Patent & Design Office in Kolkata.
+                Trademark Expert India handles representation drafting and rapid examination before the Patent & Design Office in Kolkata.
               </p>
               <div className="space-y-3 pt-2">
                 <div className="flex items-start space-x-3">

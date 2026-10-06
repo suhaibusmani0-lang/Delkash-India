@@ -23,12 +23,12 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Delkash Associates | Trademark & IPR Attorney Rahimullah Ansari New Delhi',
-    template: '%s | Delkash Associates - Intellectual Property Lawyers',
+    default: 'Trademark Expert India | Trademark & IPR Attorney Rahimullah Ansari New Delhi',
+    template: '%s | Trademark Expert India - Intellectual Property Lawyers',
   },
   description:
     'Premier Intellectual Property & Trademark law firm in New Delhi. Fast, rejection-proof Trademark, Copyright, Patent & Design registration and Delhi High Court litigation counsel by Adv. Rahimullah Ansari. Saket Court Chamber 112 & Jamia Nagar Head Office. Rated 4.7 ⭐ on Google.',
-  applicationName: 'Delkash Associates Legal Portal',
+  applicationName: 'Trademark Expert India Legal Portal',
   keywords: [
     'Trademark Registration Delhi',
     'Trademark Attorney New Delhi',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     'Rahimullah Ansari Delhi High Court',
     'Saket District Court Chamber 112 Lawyer',
     'Dr Bhawana Chauhan Advocate',
-    'Delkash Associates',
+    'Trademark Expert India',
     'Trademark Objection Reply Section 9 Section 11',
     'Trademark Hearing Lawyer Delhi',
     'Copyright Registration India',
@@ -51,8 +51,8 @@ export const metadata: Metadata = {
     { name: 'Adv. Rahimullah Ansari (Delhi High Court)', url: 'https://delkashindia.co.in' },
     { name: 'Dr. Bhawana Chauhan (IPR Strategist)', url: 'https://delkashindia.co.in/about' },
   ],
-  creator: 'Delkash Associates',
-  publisher: 'Delkash Associates',
+  creator: 'Trademark Expert India',
+  publisher: 'Trademark Expert India',
   category: 'Legal Services / Intellectual Property Law',
   formatDetection: {
     telephone: true,
@@ -67,17 +67,17 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Delkash Associates | Trademark & IPR Attorney Rahimullah Ansari New Delhi',
+    title: 'Trademark Expert India | Trademark & IPR Attorney Rahimullah Ansari New Delhi',
     description:
       'Premier Intellectual Property law firm in New Delhi. Expert Trademark, Copyright, Patent & Design registration across India. Saket Court Chambers & Jamia Nagar Head Office. Rated 4.7 ⭐ across 107+ Google reviews.',
     url: 'https://delkashindia.co.in',
-    siteName: 'Delkash Associates',
+    siteName: 'Trademark Expert India',
     locale: 'en_IN',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Delkash Associates | Trademark & IPR Attorney Rahimullah Ansari',
+    title: 'Trademark Expert India | Trademark & IPR Attorney Rahimullah Ansari',
     description:
       'Protect your brand identity and creative work with experienced counsel from Adv. Rahimullah Ansari & Dr. Bhawana Chauhan.',
   },

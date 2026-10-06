@@ -258,7 +258,7 @@ export default function BlogDetailPage() {
             <span>
               {blog.createdAt
                 ? new Date(blog.createdAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
-                : 'Delkash IPR Publications'}
+                : 'Trademark Expert India IPR Publications'}
             </span>
           </div>
         </div>
@@ -326,7 +326,7 @@ export default function BlogDetailPage() {
               Rahimullah Ansari Advocate
             </h4>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Practicing Advocate at the <strong>Delhi High Court</strong> and Founder of <strong>Delkash Associates</strong>. 
+              Practicing Advocate at the <strong>Delhi High Court</strong> and Founder of <strong>Trademark Expert India</strong>. 
               Holds advanced academic and professional qualifications including LL.M, LL.B, MBA, MA, B.P.Ed, M.P.E.S, and M.Com. 
               Specializes in contentious Trademark oppositions, Section 9/11 examination hearings, Copyright litigation, and Patent prosecution.
             </p>

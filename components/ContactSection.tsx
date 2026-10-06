@@ -58,18 +58,58 @@ export default function ContactSection() {
                 </div>
               </div>
 
-              {/* Telephone */}
+              {/* Telephone & Professional Profiles */}
               <div className="flex items-start space-x-4 bg-navy-900/50 p-3.5 rounded-xl border border-slate-800/70 hover:border-gold-500/30 transition-colors">
                 <div className="w-10 h-10 rounded-lg bg-navy-900 border border-slate-800 flex items-center justify-center text-gold-400 flex-shrink-0 shadow-md">
                   <Phone className="w-5 h-5" />
                 </div>
-                <div>
-                  <h4 className="text-white font-semibold text-xs">Telephone / Direct Helpline:</h4>
-                  <p className="text-slate-300 text-xs sm:text-sm mt-0.5">
-                    <a href="tel:+919871127869" className="hover:text-gold-400 transition-colors font-medium">
-                      +91 98711 27869
+                <div className="w-full space-y-2">
+                  <h4 className="text-white font-semibold text-xs">Telephone & Chambers Profiles:</h4>
+                  
+                  {/* Advocate Rahimullah */}
+                  <div className="flex items-center justify-between bg-navy-950/70 p-2 rounded-lg border border-slate-800/60">
+                    <div>
+                      <span className="text-gold-400 text-[11px] font-bold block">Adv. Rahimullah Ansari</span>
+                      <a href="tel:+919871127869" className="text-slate-200 hover:text-gold-400 transition-colors font-medium text-xs sm:text-sm">
+                        +91 98711 27869
+                      </a>
+                    </div>
+                    <a
+                      href="https://www.linkedin.com/in/advocaterahimullahansari?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-1 px-2.5 py-1 rounded bg-[#0A66C2]/15 text-[#0A66C2] hover:bg-[#0A66C2] hover:text-white border border-[#0A66C2]/30 transition-all text-xs font-semibold"
+                      title="Adv. Rahimullah Ansari LinkedIn"
+                    >
+                      <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                      </svg>
+                      <span>LinkedIn</span>
                     </a>
-                  </p>
+                  </div>
+
+                  {/* Advocate Bhawana */}
+                  <div className="flex items-center justify-between bg-navy-950/70 p-2 rounded-lg border border-slate-800/60">
+                    <div>
+                      <span className="text-gold-400 text-[11px] font-bold block">Advocate Bhawana</span>
+                      <a href="tel:+918076303405" className="text-slate-200 hover:text-gold-400 transition-colors font-medium text-xs sm:text-sm">
+                        +91 80763 03405
+                      </a>
+                    </div>
+                    <a
+                      href="https://orcid.org/0009-0001-0656-2683"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-1 px-2.5 py-1 rounded bg-[#0A66C2]/15 text-[#0A66C2] hover:bg-[#0A66C2] hover:text-white border border-[#0A66C2]/30 transition-all text-xs font-semibold"
+                      title="Advocate Bhawana LinkedIn / ORCID"
+                    >
+                      <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                      </svg>
+                      <span>LinkedIn</span>
+                    </a>
+                  </div>
+
                 </div>
               </div>
 
@@ -115,7 +155,7 @@ export default function ContactSection() {
               </div>
               <div className="rounded-xl overflow-hidden border border-slate-800 h-44 w-full shadow-inner relative">
                 <iframe
-                  title="Delkash Associates Saket District Court Chambers Location"
+                  title="Trademark Expert India Saket District Court Chambers Location"
                   src="https://maps.google.com/maps?q=Saket%20District%20Court%20New%20Delhi%20110017&t=&z=14&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"

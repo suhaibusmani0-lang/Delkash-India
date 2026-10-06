@@ -29,7 +29,7 @@ export default function WhatsAppButton() {
         rel="noopener noreferrer"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        aria-label="Chat with Delkash Associates on WhatsApp"
+        aria-label="Chat with Trademark Expert India on WhatsApp"
         className="relative flex items-center justify-center w-14 h-14 rounded-full bg-[#25D366] text-white shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 hover:shadow-[0_0_25px_rgba(37,211,102,0.6)]"
       >
         {/* Radar / Ping Ring Effect */}

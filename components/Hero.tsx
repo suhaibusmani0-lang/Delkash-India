@@ -143,7 +143,7 @@ export default function Hero() {
                   <div className="bg-navy-950/80 rounded-lg p-3.5 border border-white/5 flex items-start space-x-3">
                     <Award className="w-5 h-5 text-gold-400 flex-shrink-0 mt-0.5" />
                     <p className="text-xs text-slate-300 leading-normal">
-                      Delkash Associates provides end-to-end brand protection, IPR defense, commercial agreements, and dispute advisory.
+                      Trademark Expert India provides end-to-end brand protection, IPR defense, commercial agreements, and dispute advisory.
                     </p>
                   </div>
                 </div>

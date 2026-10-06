@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'IPR & Trademark Law Blog | Delkash Associates Legal Articles',
+  title: 'IPR & Trademark Law Blog | Trademark Expert India Legal Articles',
   description:
     'Authoritative insights, legal updates, and strategic guides on Trademark Registration, Section 9/11 Objection Replies, Patent Law, and Copyright Infringement in India by Adv. Rahimullah Ansari & Dr. Bhawana Chauhan.',
   keywords: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     canonical: '/blog',
   },
   openGraph: {
-    title: 'IPR & Trademark Law Blog | Delkash Associates',
+    title: 'IPR & Trademark Law Blog | Trademark Expert India',
     description:
       'Legal commentary and procedural guides for brand owners, startups, and intellectual property practitioners in India.',
     url: 'https://delkashindia.co.in/blog',

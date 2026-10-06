@@ -9,12 +9,12 @@ export default function SeoSchema() {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
     '@id': `${baseUrl}/#legalservice`,
-    name: 'Delkash Associates',
-    legalName: 'Delkash Associates - Intellectual Property & Trademark Attorneys',
+    name: 'Trademark Expert India',
+    legalName: 'Trademark Expert India - Intellectual Property & Trademark Attorneys',
     alternateName: [
-      'Delkash India',
+      'Trademark Expert India',
       'Advocate Rahimullah Ansari Law Chambers',
-      'Delkash IPR Attorneys',
+      'Trademark Expert India IPR Attorneys',
     ],
     description:
       'Premier Intellectual Property law firm based in New Delhi. Specializing in Trademark Registration, Section 9/11 Objection Replies, Trade Marks Registry Hearings, Copyright, Patent Drafting, Design Protection, and Delhi High Court Commercial Litigation.',
@@ -77,7 +77,7 @@ export default function SeoSchema() {
       },
       {
         '@type': 'LegalService',
-        name: 'Delkash Associates Head Office (South Delhi)',
+        name: 'Trademark Expert India Head Office (South Delhi)',
         address: {
           '@type': 'PostalAddress',
           streetAddress: 'C-326, Taleem Apt, Near Kotak ATM, Okhla Head, Jamia Nagar',
@@ -237,12 +237,12 @@ export default function SeoSchema() {
     legalName: 'Adv. Rahimullah Ansari',
     honorificPrefix: 'Advocate',
     honorificSuffix: 'LL.M, LL.B, MBA, MA, B.P.Ed, M.P.E.S, M.Com',
-    jobTitle: 'Advocate, Delhi High Court & Founder of Delkash Associates',
+    jobTitle: 'Advocate, Delhi High Court & Founder of Trademark Expert India',
     telephone: '+919871127869',
     email: 'advocate.rahimullah@gmail.com',
     worksFor: {
       '@type': 'LegalService',
-      name: 'Delkash Associates',
+      name: 'Trademark Expert India',
       url: baseUrl,
     },
     address: {

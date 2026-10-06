@@ -58,18 +58,18 @@ export default function Footer() {
               <div className="w-10 h-10 rounded-full bg-navy-900 border border-gold-500/50 p-1 flex items-center justify-center shadow-lg group-hover:scale-105 group-hover:border-gold-400 transition-all overflow-hidden bg-gradient-to-b from-navy-900 to-navy-950">
                 <Image
                   src="/logo-gold.png"
-                  alt="Delkash Associates Advocate Emblem Logo"
+                  alt="Trademark Expert India Advocate Emblem Logo"
                   width={40}
                   height={40}
                   className="w-full h-full object-contain drop-shadow"
                 />
               </div>
               <span className="font-serif text-lg font-bold text-white tracking-wide group-hover:text-gold-400 transition-colors">
-                DELKASH ASSOCIATES
+                TRADEMARK EXPERT INDIA
               </span>
             </Link>
             <p className="text-slate-400 text-xs leading-relaxed">
-              Delkash Associates is an Intellectual Property and civil practice law firm headed by 
+              Trademark Expert India is an Intellectual Property and civil practice law firm headed by 
               Adv. Rahimullah Ansari (Delhi High Court). Specializing in trademark protection, copyright enforcement, patent 
               prosecution, and brand litigation across all registries in India.
             </p>
@@ -86,7 +86,7 @@ export default function Footer() {
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label={`Visit Delkash Associates on ${social.name}`}
+                    aria-label={`Visit Trademark Expert India on ${social.name}`}
                     className={`w-8 h-8 rounded-lg bg-navy-900 border border-slate-700/80 flex items-center justify-center text-slate-300 transition-all duration-300 shadow-md ${social.hoverClass} hover:scale-105`}
                   >
                     {social.icon}
@@ -162,10 +162,46 @@ export default function Footer() {
               Direct Chambers Contact
             </h4>
             <ul className="space-y-2.5">
-              <li className="flex items-center space-x-2">
-                <Phone className="w-3.5 h-3.5 text-gold-400" />
-                <a href="tel:+919871127869" className="text-white hover:text-gold-400 font-medium">
-                  +91 98711 27869
+              <li className="space-y-1">
+                <div className="flex items-center space-x-2">
+                  <Phone className="w-3.5 h-3.5 text-gold-400" />
+                  <a href="tel:+919871127869" className="text-white hover:text-gold-400 font-medium">
+                    Adv. Rahimullah: +91 98711 27869
+                  </a>
+                </div>
+                <div className="flex items-center space-x-2 pl-5.5">
+                  <Phone className="w-3 h-3 text-gold-400" />
+                  <a href="tel:+918076303405" className="text-slate-300 hover:text-gold-400 font-medium">
+                    Adv. Bhawana: +91 80763 03405
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-center space-x-3 pt-1">
+                <a
+                  href="https://www.linkedin.com/in/advocaterahimullahansari?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-1 text-slate-300 hover:text-white"
+                  title="Adv. Rahimullah LinkedIn"
+                >
+                  <svg className="w-3.5 h-3.5 fill-current text-[#0A66C2]" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                  <span className="text-[11px]">Adv. Rahimullah LinkedIn</span>
+                </a>
+              </li>
+              <li className="flex items-center space-x-3">
+                <a
+                  href="https://orcid.org/0009-0001-0656-2683"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-1 text-slate-300 hover:text-white"
+                  title="Advocate Bhawana LinkedIn/ORCID"
+                >
+                  <svg className="w-3.5 h-3.5 fill-current text-[#0A66C2]" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                  <span className="text-[11px]">Adv. Bhawana Profile</span>
                 </a>
               </li>
               <li>
@@ -218,12 +254,12 @@ export default function Footer() {
             <strong className="text-slate-300">Bar Council of India Disclaimer:</strong> As per the rules 
             of the Bar Council of India, law firms and advocates are prohibited from soliciting work or 
             advertising. By visiting this website, you acknowledge that you are seeking information regarding 
-            Delkash Associates of your own accord and that there has been no form of solicitation, advertisement, 
+            Trademark Expert India of your own accord and that there has been no form of solicitation, advertisement, 
             or inducement by Rahimullah Ansari Advocate or any associate of the firm.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-between pt-4 border-t border-navy-850/60 text-slate-400 text-[11px] gap-2">
-            <p>© {new Date().getFullYear()} Delkash Associates. All Rights Reserved.</p>
+            <p>© {new Date().getFullYear()} Trademark Expert India. All Rights Reserved.</p>
             <p>Crafted for Supreme Legal Precision & Brand Protection.</p>
           </div>
 
