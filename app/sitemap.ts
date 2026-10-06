@@ -3,6 +3,8 @@ import { initialBlogs } from '@/lib/blogSeed';
 import { connectToDatabase } from '@/lib/mongodb';
 import Blog from '@/models/Blog';
 
+export const revalidate = 3600; // Revalidate every hour
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://delkashindia.co.in';
   const currentDate = new Date();
@@ -14,6 +16,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: currentDate,
       changeFrequency: 'daily',
       priority: 1.0,
+    },
+    {
+      url: `${baseUrl}/services`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/services/trademark`,
@@ -35,12 +43,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: `${baseUrl}/services/design`,
-      lastModified: currentDate,
-      changeFrequency: 'weekly',
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/services`,
       lastModified: currentDate,
       changeFrequency: 'weekly',
       priority: 0.85,
@@ -85,7 +87,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     if (conn) {
       const dbBlogs = await Blog.find({ isPublished: { $ne: false } }).select('slug updatedAt').lean();
       if (dbBlogs && dbBlogs.length > 0) {
-        blogSlugs = Array.from(new Set([...blogSlugs, ...dbBlogs.map((b: { slug: string }) => b.slug)]));
+        blogSlugs = Array.from(new Set([...blogSlugs, ...dbBlogs.map((b) => b.slug)]));
       }
     }
   } catch (error) {
@@ -101,4 +103,3 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [...staticRoutes, ...blogRoutes];
 }
-
