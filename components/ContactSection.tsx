@@ -118,18 +118,27 @@ export default function ContactSection() {
                 <div className="w-10 h-10 rounded-lg bg-navy-900 border border-slate-800 flex items-center justify-center text-emerald-400 flex-shrink-0 shadow-md">
                   <MessageSquare className="w-5 h-5" />
                 </div>
-                <div>
-                  <h4 className="text-white font-semibold text-xs">Instant WhatsApp Desk:</h4>
-                  <p className="text-slate-300 text-xs sm:text-sm mt-0.5">
+                <div className="w-full">
+                  <h4 className="text-white font-semibold text-xs mb-1">Instant WhatsApp Desk:</h4>
+                  <div className="flex flex-col sm:flex-row gap-2 text-xs">
                     <a
                       href="https://wa.me/919871127869?text=Hello%20Adv.%20Rahimullah%20Ansari,%20I%20would%20like%20to%20consult%20regarding%20Trademark/IPR%20legal%20services."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-emerald-400 hover:underline font-medium"
                     >
-                      wa.me/919871127869
+                      Adv. Rahimullah: wa.me/919871127869
                     </a>
-                  </p>
+                    <span className="hidden sm:inline text-slate-500">•</span>
+                    <a
+                      href="https://wa.me/918076303405?text=Hello%20Adv.%20Bhawana,%20I%20would%20like%20to%20consult%20regarding%20Copyright/Trademark%20legal%20services."
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-emerald-400 hover:underline font-medium"
+                    >
+                      Adv. Bhawana: wa.me/918076303405
+                    </a>
+                  </div>
                 </div>
               </div>
 

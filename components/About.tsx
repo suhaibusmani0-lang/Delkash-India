@@ -20,6 +20,7 @@ export default function About() {
       image: '/team/advocate-rahimullah-ansari.jpg',
       bio: 'Seasoned intellectual property advocate and lead counsel at Trademark Expert India. With over 15+ years of litigation practice before the Delhi High Court and Trade Marks Registry, Adv. Ansari combines formidable statutory mastery with multidisciplinary commercial and corporate strategies to defend high-value brands across India.',
       focus: ['Trademark Opposition Hearings', 'Section 9 & 11 Refusal Defense', 'High Court IPR Injunctions', 'Patent & Design Prosecution'],
+      whatsappNumber: '919871127869',
       whatsappText: 'Hello Adv. Rahimullah Ansari, I would like to consult regarding Trademark/IPR legal services.',
     },
     {
@@ -34,6 +35,7 @@ export default function About() {
       image: '/team/dr-bhawana-chauhan.jpg',
       bio: 'Distinguished legal academic and corporate intellectual property consultant at Trademark Expert India. Specializes in copyright enforcement, statutory Examination Report rebuttals, corporate brand risk mitigation, and commercial software licensing agreements for technology startups and enterprise enterprises.',
       focus: ['Copyright Registration & Code IP', 'Brand Clearance & Risk Audits', 'Notice & Opposition Rebuttals', 'Corporate Compliance & Licensing'],
+      whatsappNumber: '918076303405',
       whatsappText: 'Hello Adv. Bhawana, I would like to consult regarding Copyright/Trademark legal services.',
     },
   ];
@@ -177,7 +179,7 @@ export default function About() {
                   {/* Actions & Direct WhatsApp Consultation Trigger */}
                   <div className="pt-3 flex flex-col sm:flex-row items-center gap-3">
                     <a
-                      href={`https://wa.me/919871127869?text=${encodeURIComponent(member.whatsappText)}`}
+                      href={`https://wa.me/${member.whatsappNumber}?text=${encodeURIComponent(member.whatsappText)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-full sm:flex-1 py-3 px-4 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-xs uppercase tracking-wider shadow-lg flex items-center justify-center space-x-2 transition-all hover:scale-[1.02]"

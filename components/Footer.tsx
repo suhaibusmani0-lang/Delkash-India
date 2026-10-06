@@ -204,15 +204,27 @@ export default function Footer() {
                   <span className="text-[11px]">Adv. Bhawana Profile</span>
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://wa.me/919871127869?text=Hello%20Adv.%20Rahimullah%20Ansari,%20I%20would%20like%20to%20consult%20regarding%20Trademark/IPR%20legal%20services."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-emerald-400 hover:underline"
-                >
-                  WhatsApp: +91 98711 27869
-                </a>
+              <li className="space-y-1">
+                <div>
+                  <a
+                    href="https://wa.me/919871127869?text=Hello%20Adv.%20Rahimullah%20Ansari,%20I%20would%20like%20to%20consult%20regarding%20Trademark/IPR%20legal%20services."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-emerald-400 hover:underline text-xs"
+                  >
+                    WhatsApp (Rahimullah): +91 98711 27869
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="https://wa.me/918076303405?text=Hello%20Adv.%20Bhawana,%20I%20would%20like%20to%20consult%20regarding%20Copyright/Trademark%20legal%20services."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-emerald-400 hover:underline text-xs"
+                  >
+                    WhatsApp (Bhawana): +91 80763 03405
+                  </a>
+                </div>
               </li>
               <li>
                 <a href="mailto:advocate.rahimullah@gmail.com" className="text-slate-300 hover:text-gold-400 transition-colors">
