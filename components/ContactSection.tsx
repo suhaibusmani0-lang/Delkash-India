@@ -159,13 +159,20 @@ export default function ContactSection() {
             {/* Dual Location Map with Quick Switcher */}
             <div className="space-y-2">
               <div className="flex items-center justify-between text-[11px] px-1 text-slate-300">
-                <span className="font-semibold text-gold-400">Map View:</span>
-                <span className="text-slate-400">Saket District Court & Jamia Nagar Head Office</span>
+                <span className="font-semibold text-gold-400">Google Business (GMB: 1097941121254250819):</span>
+                <a
+                  href="https://maps.google.com/?cid=1097941121254250819"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gold-400 hover:text-white transition-colors underline font-medium"
+                >
+                  Open in Google Maps →
+                </a>
               </div>
               <div className="rounded-xl overflow-hidden border border-slate-800 h-44 w-full shadow-inner relative">
                 <iframe
-                  title="Trademark Expert India Saket District Court Chambers Location"
-                  src="https://maps.google.com/maps?q=Saket%20District%20Court%20New%20Delhi%20110017&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                  title="Trademark Expert India Google My Business Location"
+                  src="https://maps.google.com/maps?cid=1097941121254250819&t=&z=14&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

@@ -25,7 +25,7 @@ export default function About() {
     },
     {
       name: 'Advocate Bhawana (Dr. Bhawana Chauhan)',
-      role: 'Senior Associate Counsel & IPR Strategist',
+      role: 'Co-Founder & Senior Counsel',
       court: 'Advocate & Legal Scholar',
       chamber: 'Trademark Expert India Chambers, Okhla Head Jamia Nagar, New Delhi',
       degrees: 'Ph.D., LL.M, LL.B',
@@ -33,7 +33,7 @@ export default function About() {
       phoneRaw: '+918076303405',
       linkedin: 'https://orcid.org/0009-0001-0656-2683',
       image: '/team/dr-bhawana-chauhan.jpg',
-      bio: 'Distinguished legal academic and corporate intellectual property consultant at Trademark Expert India. Specializes in copyright enforcement, statutory Examination Report rebuttals, corporate brand risk mitigation, and commercial software licensing agreements for technology startups and enterprise enterprises.',
+      bio: 'Eminent legal scholar and seasoned Intellectual Property Practitioner representing Trademark Expert India. Focuses on robust copyright protection mechanisms, persuasive statutory Examination Report contestations, and comprehensive enterprise brand-risk containment strategies. Serves as a primary legal strategist in crafting custom commercial software licensing frameworks for emerging tech firms and established corporate entities.',
       focus: ['Copyright Registration & Code IP', 'Brand Clearance & Risk Audits', 'Notice & Opposition Rebuttals', 'Corporate Compliance & Licensing'],
       whatsappNumber: '918076303405',
       whatsappText: 'Hello Adv. Bhawana, I would like to consult regarding Copyright/Trademark legal services.',

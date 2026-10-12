@@ -10,7 +10,7 @@ import TiltCard from '@/components/ui/TiltCard';
 export const metadata: Metadata = {
   title: 'Adv. Rahimullah Ansari (Delhi High Court) & Dr. Bhawana Chauhan | Legal Profile',
   description:
-    'Profile of Adv. Rahimullah Ansari (Founder, Chamber No. 112 Saket District Court & Delhi High Court) and Dr. Bhawana Chauhan (Ph.D., LL.M, LL.B). Over a decade of excellence in Trademark, Patent, and Copyright Law in New Delhi.',
+    'Profile of Adv. Rahimullah Ansari (Founder, Chamber No. 112 Saket District Court & Delhi High Court) and Dr. Bhawana Chauhan (Co-Founder, Ph.D., LL.M, LL.B). Over a decade of excellence in Trademark, Patent, and Copyright Law in New Delhi.',
   keywords: [
     'Advocate Rahimullah Ansari',
     'Rahimullah Ansari Delhi High Court',
@@ -61,7 +61,7 @@ export default function AboutPage() {
       <PageHeader
         badge="Chambers Leadership & Legal Counsel"
         title="Adv. Rahimullah Ansari & Dr. Bhawana Chauhan"
-        description="Senior Counsel at Trademark Expert India, New Delhi. Featuring Adv. Rahimullah Ansari (Delhi High Court — LL.M, LL.B, MBA, M.Com) and Dr. Bhawana Chauhan (Ph.D., LL.M, LL.B), dedicated to defending intellectual property rights and corporate brand identities across India."
+        description="Chambers Leadership at Trademark Expert India, New Delhi. Featuring Adv. Rahimullah Ansari (Founder & Principal Advocate — LL.M, LL.B, MBA, M.Com) and Dr. Bhawana Chauhan (Co-Founder & Senior Counsel — Ph.D., LL.M, LL.B), dedicated to defending intellectual property rights and corporate brand identities across India."
         breadcrumbs={[{ label: 'About Counsel' }]}
       />
 

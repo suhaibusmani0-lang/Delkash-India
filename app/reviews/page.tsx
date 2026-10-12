@@ -56,10 +56,19 @@ export default function ReviewsPage() {
                 </p>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-3">
+                <a
+                  href="https://maps.google.com/?cid=1097941121254250819"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-bold uppercase tracking-wider text-xs rounded-lg transition-all shadow-lg hover:shadow-blue-500/25 text-center flex items-center justify-center space-x-1.5"
+                >
+                  <Star className="w-3.5 h-3.5 fill-current text-amber-300" />
+                  <span>Verify on Google Maps (GMB)</span>
+                </a>
                 <Link
                   href="/contact"
-                  className="px-8 py-3.5 bg-gold-500 hover:bg-gold-400 text-navy-950 font-bold uppercase tracking-wider text-xs rounded-lg transition-all shadow-lg hover:shadow-gold-500/25 text-center"
+                  className="px-6 py-3.5 bg-gold-500 hover:bg-gold-400 text-navy-950 font-bold uppercase tracking-wider text-xs rounded-lg transition-all shadow-lg hover:shadow-gold-500/25 text-center"
                 >
                   Consult Adv. Ansari
                 </Link>
@@ -67,9 +76,9 @@ export default function ReviewsPage() {
                   href="https://wa.me/919871127869"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-8 py-3.5 bg-emerald-600/20 hover:bg-emerald-600 text-emerald-300 hover:text-white border border-emerald-500/40 font-semibold text-xs rounded-lg transition-all text-center"
+                  className="px-6 py-3.5 bg-emerald-600/20 hover:bg-emerald-600 text-emerald-300 hover:text-white border border-emerald-500/40 font-semibold text-xs rounded-lg transition-all text-center"
                 >
-                  WhatsApp Consultation
+                  WhatsApp
                 </a>
               </div>
             </div>

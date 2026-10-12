@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   ],
   authors: [
     { name: 'Adv. Rahimullah Ansari (Delhi High Court)', url: 'https://www.trademarkexpertindia.com' },
-    { name: 'Dr. Bhawana Chauhan (IPR Strategist)', url: 'https://www.trademarkexpertindia.com/about' },
+    { name: 'Dr. Bhawana Chauhan (Co-Founder & Senior Counsel)', url: 'https://www.trademarkexpertindia.com/about' },
   ],
   creator: 'Trademark Expert India',
   publisher: 'Trademark Expert India',
