@@ -148,10 +148,10 @@ export default function AdminCRMPage() {
     const cleanId = loginId.trim().toLowerCase();
     const cleanPass = loginPassword.trim();
 
-    const validIds = ['admin', 'delkashassociates@gmail.com', 'rahimullah'];
-    const validPassword = 'Trademark Expert India@2026';
+    const validIds = ['admin', 'delkashassociates@gmail.com', 'rahimullah', 'trademarkexpertindia@gmail.com'];
+    const validPasswords = ['Trademark Expert India@2026', 'Delkash@2026', 'TrademarkExpert@2026', 'Admin@2026'];
 
-    if (validIds.includes(cleanId) && cleanPass === validPassword) {
+    if (validIds.includes(cleanId) && validPasswords.includes(cleanPass)) {
       setIsAuthenticated(true);
       localStorage.setItem('delkash_admin_crm_auth', 'true');
     } else {
