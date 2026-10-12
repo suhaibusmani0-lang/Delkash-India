@@ -60,7 +60,13 @@ export default function AboutPage() {
     <div className="pb-24">
       <PageHeader
         badge="Chambers Leadership & Legal Counsel"
-        title="Adv. Rahimullah Ansari & Dr. Bhawana Chauhan"
+        title={
+          <>
+            <span className="whitespace-nowrap">Adv. Rahimullah Ansari</span>{' '}
+            <span className="text-gold-400 font-serif font-normal">&amp;</span>{' '}
+            <span className="whitespace-nowrap">Dr. Bhawana Chauhan</span>
+          </>
+        }
         description="Chambers Leadership at Trademark Expert India, New Delhi. Featuring Adv. Rahimullah Ansari (Founder & Principal Advocate — LL.M, LL.B, MBA, M.Com) and Dr. Bhawana Chauhan (Co-Founder & Senior Counsel — Ph.D., LL.M, LL.B), dedicated to defending intellectual property rights and corporate brand identities across India."
         breadcrumbs={[{ label: 'About Counsel' }]}
       />

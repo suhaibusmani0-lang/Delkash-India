@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 interface PageHeaderProps {
   badge: string;
-  title: string;
+  title: React.ReactNode;
   description: string;
   breadcrumbs: { label: string; href?: string }[];
 }
