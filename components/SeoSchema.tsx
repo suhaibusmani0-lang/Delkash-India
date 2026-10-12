@@ -22,7 +22,7 @@ export default function SeoSchema() {
     logo: `${baseUrl}/logo.png`,
     image: `${baseUrl}/team/advocate-rahimullah-ansari.jpg`,
     telephone: '+919871127869',
-    email: 'advocate.rahimullah@gmail.com',
+    email: 'trademarkexpertindia@gmail.com',
     priceRange: '₹₹',
     currenciesAccepted: 'INR',
     paymentAccepted: 'Cash, UPI, Credit Card, Net Banking, NEFT/RTGS',
@@ -239,7 +239,7 @@ export default function SeoSchema() {
     honorificSuffix: 'LL.M, LL.B, MBA, MA, B.P.Ed, M.P.E.S, M.Com',
     jobTitle: 'Advocate, Delhi High Court & Founder of Trademark Expert India',
     telephone: '+919871127869',
-    email: 'advocate.rahimullah@gmail.com',
+    email: 'trademarkexpertindia@gmail.com',
     worksFor: {
       '@type': 'LegalService',
       name: 'Trademark Expert India',

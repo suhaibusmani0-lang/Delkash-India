@@ -227,8 +227,8 @@ export default function Footer() {
                 </div>
               </li>
               <li>
-                <a href="mailto:advocate.rahimullah@gmail.com" className="text-slate-300 hover:text-gold-400 transition-colors">
-                  advocate.rahimullah@gmail.com
+                <a href="mailto:trademarkexpertindia@gmail.com" className="text-slate-300 hover:text-gold-400 transition-colors">
+                  trademarkexpertindia@gmail.com
                 </a>
               </li>
               <li>

@@ -10,26 +10,25 @@ interface SendLeadNotificationParams {
 }
 
 export async function sendLeadNotificationEmail(lead: SendLeadNotificationParams) {
-  if (!process.env.SMTP_USER || !process.env.SMTP_PASS) {
-    console.log('[SMTP Disabled] Mock email notification logged:');
-    console.log(JSON.stringify(lead, null, 2));
-    return { mock: true };
-  }
+  const smtpUser = process.env.SMTP_USER || 'trademarkexpertindia@gmail.com';
+  const smtpPass = (process.env.SMTP_PASS || 'kybnhnljucijvlkq').replace(/\s+/g, '');
+  const smtpHost = process.env.SMTP_HOST || 'smtp.gmail.com';
+  const smtpPort = Number(process.env.SMTP_PORT) || 465;
 
   const transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST || 'smtp.gmail.com',
-    port: Number(process.env.SMTP_PORT) || 465,
-    secure: Number(process.env.SMTP_PORT) === 465,
+    host: smtpHost,
+    port: smtpPort,
+    secure: smtpPort === 465,
     auth: {
-      user: process.env.SMTP_USER,
-      pass: process.env.SMTP_PASS,
+      user: smtpUser,
+      pass: smtpPass,
     },
   });
 
-  const recipient = process.env.LEAD_RECEIVER_EMAIL || process.env.SMTP_USER;
+  const recipient = process.env.LEAD_RECEIVER_EMAIL || smtpUser;
   
   const mailOptions = {
-    from: `"Trademark Expert India IPR Lead Desk" <${process.env.SMTP_USER}>`,
+    from: `"Trademark Expert India IPR Lead Desk" <${smtpUser}>`,
     to: recipient,
     subject: `⚡ New High-Intent Lead: ${lead.name} (${lead.service})`,
     html: `
