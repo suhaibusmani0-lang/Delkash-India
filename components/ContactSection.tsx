@@ -184,18 +184,10 @@ export default function ContactSection() {
             </div>
           </div>
 
-          {/* Right: Contact Form Card with 3D Tilt */}
+          {/* Right: Contact Form Card with 3D Tilt matching Hero Section Style */}
           <div className="lg:col-span-7">
-            <TiltCard glowColor="rgba(212, 175, 55, 0.2)">
-              <div className="bg-navy-900/90 border border-slate-800 hover:border-gold-500/50 rounded-2xl p-6 sm:p-10 shadow-2xl transition-colors duration-300">
-                <h3 className="font-serif text-2xl font-bold text-white mb-1">
-                  Direct Lead & Consultation Form
-                </h3>
-                <p className="text-xs text-slate-400 mb-6">
-                  Enter your brand specifics below. Rahimullah Ansari Advocate will personally assess availability and next steps.
-                </p>
-                <ContactForm />
-              </div>
+            <TiltCard glowColor="rgba(212, 175, 55, 0.25)">
+              <ContactForm />
             </TiltCard>
           </div>
 
