@@ -77,13 +77,20 @@ export default function Hero() {
                 className="inline-flex items-center space-x-2 px-5 py-3 rounded-xl bg-gold-500 hover:bg-gold-400 text-navy-950 font-bold text-xs uppercase tracking-wider transition-all shadow-lg hover:shadow-gold-500/25"
               >
                 <Phone className="w-3.5 h-3.5" />
-                <span>Direct: +91 98711 27869</span>
+                <span>Call: +91 98711 27869</span>
+              </a>
+              <a
+                href="tel:+918076303405"
+                className="inline-flex items-center space-x-2 px-4 py-3 rounded-xl bg-navy-900/90 hover:bg-navy-800 text-slate-200 border border-slate-700 hover:border-gold-500/50 font-semibold text-xs uppercase tracking-wider transition-all shadow-md"
+              >
+                <Phone className="w-3.5 h-3.5 text-gold-400" />
+                <span>+91 8076 303 405</span>
               </a>
               <a
                 href="https://wa.me/919871127869?text=Hello%20Adv.%20Rahimullah%20Ansari,%20I%20would%20like%20to%20consult%20regarding%20Trademark/IPR%20legal%20services."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center space-x-2 px-5 py-3 rounded-xl bg-[#25D366]/20 hover:bg-[#25D366] text-emerald-300 hover:text-white border border-[#25D366]/40 font-semibold text-xs uppercase tracking-wider transition-all shadow-md"
+                className="inline-flex items-center space-x-2 px-4 py-3 rounded-xl bg-[#25D366]/20 hover:bg-[#25D366] text-emerald-300 hover:text-white border border-[#25D366]/40 font-semibold text-xs uppercase tracking-wider transition-all shadow-md"
               >
                 <MessageCircle className="w-3.5 h-3.5" />
                 <span>Chat on WhatsApp</span>

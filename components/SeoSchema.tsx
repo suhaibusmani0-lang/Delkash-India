@@ -9,8 +9,8 @@ export default function SeoSchema() {
     '@context': 'https://schema.org',
     '@type': 'LegalService',
     '@id': `${baseUrl}/#legalservice`,
-    name: 'Trademark Expert India',
-    legalName: 'Trademark Expert India - Intellectual Property & Trademark Attorneys',
+    name: 'TRADEMARK EXPERT INDIA',
+    legalName: 'TRADEMARK EXPERT INDIA - Intellectual Property & Trademark Attorneys',
     alternateName: [
       'Trademark Expert India',
       'Advocate Rahimullah Ansari Law Chambers',
@@ -22,6 +22,22 @@ export default function SeoSchema() {
     logo: `${baseUrl}/logo.png`,
     image: `${baseUrl}/team/advocate-rahimullah-ansari.jpg`,
     telephone: '+919871127869',
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        telephone: '+91-98711-27869',
+        contactType: 'primary legal counsel',
+        areaServed: 'IN',
+        availableLanguage: ['English', 'Hindi'],
+      },
+      {
+        '@type': 'ContactPoint',
+        telephone: '+91-8076-303-405',
+        contactType: 'associate helpline',
+        areaServed: 'IN',
+        availableLanguage: ['English', 'Hindi'],
+      },
+    ],
     email: 'trademarkexpertindia@gmail.com',
     priceRange: '₹₹',
     currenciesAccepted: 'INR',
@@ -36,7 +52,7 @@ export default function SeoSchema() {
     ],
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'C-326, Taleem Apt, Near Kotak ATM, Okhla Head, Jamia Nagar',
+      streetAddress: 'Upper Ground Floor, Office No 2, C-326, Okhla Head Rd, near UBI, Okhla Village',
       addressLocality: 'New Delhi',
       addressRegion: 'Delhi',
       postalCode: '110025',
@@ -78,10 +94,10 @@ export default function SeoSchema() {
       },
       {
         '@type': 'LegalService',
-        name: 'Trademark Expert India Head Office (South Delhi)',
+        name: 'TRADEMARK EXPERT INDIA Head Office (South Delhi)',
         address: {
           '@type': 'PostalAddress',
-          streetAddress: 'C-326, Taleem Apt, Near Kotak ATM, Okhla Head, Jamia Nagar',
+          streetAddress: 'Upper Ground Floor, Office No 2, C-326, Okhla Head Rd, near UBI, Okhla Village',
           addressLocality: 'New Delhi',
           addressRegion: 'Delhi',
           postalCode: '110025',
@@ -245,7 +261,7 @@ export default function SeoSchema() {
     email: 'trademarkexpertindia@gmail.com',
     worksFor: {
       '@type': 'LegalService',
-      name: 'Trademark Expert India',
+      name: 'TRADEMARK EXPERT INDIA',
       url: baseUrl,
     },
     address: {
@@ -258,6 +274,34 @@ export default function SeoSchema() {
     },
     image: `${baseUrl}/team/advocate-rahimullah-ansari.jpg`,
     alumniOf: 'Bar Council of Delhi',
+  };
+
+  // 2b. Attorney Profile Schema (Adv. Dr. Bhawana Chauhan)
+  const attorneyBhawanaSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Attorney',
+    '@id': `${baseUrl}/#attorney-bhawana-chauhan`,
+    name: 'Advocate Bhawana (Dr. Bhawana Chauhan)',
+    legalName: 'Dr. Bhawana Chauhan',
+    honorificPrefix: 'Dr.',
+    honorificSuffix: 'Ph.D., LL.M, LL.B',
+    jobTitle: 'Co-Founder & Senior Counsel at Trademark Expert India',
+    telephone: '+918076303405',
+    email: 'trademarkexpertindia@gmail.com',
+    worksFor: {
+      '@type': 'LegalService',
+      name: 'TRADEMARK EXPERT INDIA',
+      url: baseUrl,
+    },
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Upper Ground Floor, Office No 2, C-326, Okhla Head Rd, near UBI, Okhla Village',
+      addressLocality: 'New Delhi',
+      addressRegion: 'Delhi',
+      postalCode: '110025',
+      addressCountry: 'IN',
+    },
+    image: `${baseUrl}/team/dr-bhawana-chauhan.jpg`,
   };
 
   // 3. BreadcrumbList Schema for Google Search Snippets
@@ -321,6 +365,10 @@ export default function SeoSchema() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(attorneySchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(attorneyBhawanaSchema) }}
       />
       <script
         type="application/ld+json"

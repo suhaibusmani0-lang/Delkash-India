@@ -146,8 +146,8 @@ export default function Footer() {
                 <p className="text-slate-400">Chamber No. 112, 1st Floor, Saket District Court, Saket, New Delhi 110017</p>
               </div>
               <div>
-                <p className="font-semibold text-gold-400">South Delhi Head Office:</p>
-                <p className="text-slate-400">C-326, Taleem Apt, Near Kotak ATM, Okhla Head Jamia Nagar, New Delhi 110025</p>
+                <p className="font-semibold text-gold-400">South Delhi Head Office (GMB Listed):</p>
+                <p className="text-slate-400">Upper Ground Floor, Office No 2, C-326, Okhla Head Rd, Near UBI, Okhla Village, Jamia Nagar, New Delhi 110025</p>
               </div>
               <div>
                 <p className="font-semibold text-gold-400">Registry & High Court Jurisdiction:</p>
@@ -165,14 +165,14 @@ export default function Footer() {
               <li className="space-y-1">
                 <div className="flex items-center space-x-2">
                   <Phone className="w-3.5 h-3.5 text-gold-400" />
-                  <a href="tel:+919871127869" className="text-white hover:text-gold-400 font-medium">
+                  <a href="tel:+919871127869" className="text-white hover:text-gold-400 font-semibold text-sm">
                     Adv. Rahimullah: +91 98711 27869
                   </a>
                 </div>
                 <div className="flex items-center space-x-2 pl-5.5">
                   <Phone className="w-3 h-3 text-gold-400" />
-                  <a href="tel:+918076303405" className="text-slate-300 hover:text-gold-400 font-medium">
-                    Adv. Bhawana: +91 80763 03405
+                  <a href="tel:+918076303405" className="text-slate-300 hover:text-gold-400 font-medium text-xs">
+                    Chambers Helpline: +91 8076 303 405
                   </a>
                 </div>
               </li>
@@ -212,17 +212,17 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="text-emerald-400 hover:underline text-xs"
                   >
-                    WhatsApp (Rahimullah): +91 98711 27869
+                    WhatsApp (Adv. Rahimullah): +91 98711 27869
                   </a>
                 </div>
                 <div>
                   <a
-                    href="https://wa.me/918076303405?text=Hello%20Adv.%20Bhawana,%20I%20would%20like%20to%20consult%20regarding%20Copyright/Trademark%20legal%20services."
+                    href="https://wa.me/918076303405?text=Hello%20Trademark%20Expert%20India,%20I%20would%20like%20to%20consult%20regarding%20Trademark/IPR%20legal%20services."
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-emerald-400 hover:underline text-xs"
+                    className="text-slate-400 hover:text-emerald-400 hover:underline text-xs"
                   >
-                    WhatsApp (Bhawana): +91 80763 03405
+                    WhatsApp (Helpline): +91 8076 303 405
                   </a>
                 </div>
               </li>

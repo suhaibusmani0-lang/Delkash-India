@@ -35,10 +35,10 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold text-xs uppercase tracking-wider text-gold-400">
-                    Main Office Address:
+                    South Delhi Head Office (GMB Listed):
                   </h4>
                   <p className="text-slate-200 leading-normal text-xs sm:text-sm mt-1">
-                    C-326, Taleem Apt, Near Kotak ATM, Okhla Head, Jamia Nagar, New Delhi 110025
+                    Upper Ground Floor, Office No 2, C-326, Okhla Head Rd, Near UBI, Okhla Village, Jamia Nagar, New Delhi 110025
                   </p>
                 </div>
               </div>
@@ -64,36 +64,38 @@ export default function ContactSection() {
                   <Phone className="w-5 h-5" />
                 </div>
                 <div className="w-full space-y-2">
-                  <h4 className="text-white font-semibold text-xs">Telephone & Chambers Profiles:</h4>
-                  
-                  {/* Advocate Rahimullah */}
-                  <div className="flex items-center justify-between bg-navy-950/70 p-2 rounded-lg border border-slate-800/60">
+                  <h4 className="text-white font-semibold text-xs">Telephone &amp; Chambers Profiles:</h4>
+
+                  {/* Primary Direct Helpline - Adv. Rahimullah */}
+                  <div className="flex items-center justify-between bg-gold-500/10 p-2.5 rounded-lg border border-gold-500/30">
                     <div>
-                      <span className="text-gold-400 text-[11px] font-bold block">Adv. Rahimullah Ansari</span>
-                      <a href="tel:+919871127869" className="text-slate-200 hover:text-gold-400 transition-colors font-medium text-xs sm:text-sm">
+                      <span className="text-gold-400 text-[11px] font-bold block uppercase tracking-wider">Adv. Rahimullah Ansari (Chambers &amp; High Court)</span>
+                      <a href="tel:+919871127869" className="text-white hover:text-gold-400 transition-colors font-bold text-sm sm:text-base">
                         +91 98711 27869
                       </a>
                     </div>
-                    <a
-                      href="https://www.linkedin.com/in/advocaterahimullahansari?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center space-x-1 px-2.5 py-1 rounded bg-[#0A66C2]/15 text-[#0A66C2] hover:bg-[#0A66C2] hover:text-white border border-[#0A66C2]/30 transition-all text-xs font-semibold"
-                      title="Adv. Rahimullah Ansari LinkedIn"
-                    >
-                      <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                      </svg>
-                      <span>LinkedIn</span>
-                    </a>
+                    <div className="flex items-center space-x-2">
+                      <span className="px-2 py-1 rounded bg-gold-500 text-navy-950 text-xs font-bold shadow-sm">Primary</span>
+                      <a
+                        href="https://www.linkedin.com/in/advocaterahimullahansari?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center space-x-1 px-2 py-1 rounded bg-[#0A66C2]/20 text-[#0A66C2] hover:bg-[#0A66C2] hover:text-white border border-[#0A66C2]/40 transition-all text-xs font-semibold"
+                        title="Adv. Rahimullah Ansari LinkedIn"
+                      >
+                        <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
 
-                  {/* Advocate Bhawana */}
+                  {/* Associate Counsel - Adv. Bhawana */}
                   <div className="flex items-center justify-between bg-navy-950/70 p-2 rounded-lg border border-slate-800/60">
                     <div>
-                      <span className="text-gold-400 text-[11px] font-bold block">Advocate Bhawana</span>
+                      <span className="text-gold-400 text-[11px] font-bold block">Advocate Bhawana (Senior Counsel)</span>
                       <a href="tel:+918076303405" className="text-slate-200 hover:text-gold-400 transition-colors font-medium text-xs sm:text-sm">
-                        +91 80763 03405
+                        +91 8076 303 405
                       </a>
                     </div>
                     <a
@@ -131,12 +133,12 @@ export default function ContactSection() {
                     </a>
                     <span className="hidden sm:inline text-slate-500">•</span>
                     <a
-                      href="https://wa.me/918076303405?text=Hello%20Adv.%20Bhawana,%20I%20would%20like%20to%20consult%20regarding%20Copyright/Trademark%20legal%20services."
+                      href="https://wa.me/918076303405?text=Hello%20Trademark%20Expert%20India,%20I%20would%20like%20to%20consult%20regarding%20Trademark/IPR%20legal%20services."
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-emerald-400 hover:underline font-medium"
+                      className="text-slate-400 hover:text-emerald-400 hover:underline font-medium"
                     >
-                      Adv. Bhawana: wa.me/918076303405
+                      Helpline: wa.me/918076303405
                     </a>
                   </div>
                 </div>

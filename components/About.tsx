@@ -31,7 +31,7 @@ export default function About() {
       degrees: 'Ph.D., LL.M, LL.B',
       phone: '+91 80763 03405',
       phoneRaw: '+918076303405',
-      linkedin: 'https://orcid.org/0009-0001-0656-2683',
+      linkedin: 'https://www.linkedin.com/in/adv-dr-bhawana-chauhan-843795443?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
       image: '/team/dr-bhawana-chauhan.jpg',
       bio: 'Eminent legal scholar and seasoned Intellectual Property Practitioner representing Trademark Expert India. Focuses on robust copyright protection mechanisms, persuasive statutory Examination Report contestations, and comprehensive enterprise brand-risk containment strategies. Serves as a primary legal strategist in crafting custom commercial software licensing frameworks for emerging tech firms and established corporate entities.',
       focus: ['Copyright Registration & Code IP', 'Brand Clearance & Risk Audits', 'Notice & Opposition Rebuttals', 'Corporate Compliance & Licensing'],
