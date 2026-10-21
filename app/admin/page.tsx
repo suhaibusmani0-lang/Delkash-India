@@ -343,7 +343,7 @@ export default function AdminCRMPage() {
             <div className="text-center space-y-3 mb-8">
               <div className="w-16 h-16 rounded-full bg-navy-950 border border-gold-500/50 p-1.5 flex items-center justify-center shadow-xl mx-auto overflow-hidden bg-gradient-to-b from-navy-900 to-navy-950">
                 <Image
-                  src="/logo-gold.png"
+                  src="/brand-logo.png"
                   alt="Trademark Expert India Logo Emblem"
                   width={64}
                   height={64}
@@ -434,7 +434,7 @@ export default function AdminCRMPage() {
           <div className="p-6 border-b border-slate-800/80 flex items-center space-x-3">
             <div className="w-10 h-10 rounded-full bg-navy-950 border border-gold-500/50 p-1 flex items-center justify-center shadow-md overflow-hidden bg-gradient-to-b from-navy-900 to-navy-950 shrink-0">
               <Image
-                src="/logo-gold.png"
+                src="/brand-logo.png"
                 alt="Trademark Expert India Logo Emblem"
                 width={38}
                 height={38}
