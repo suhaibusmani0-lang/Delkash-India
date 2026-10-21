@@ -18,6 +18,8 @@ export default function SeoSchema() {
     ],
     description:
       'Premier Intellectual Property law firm based in New Delhi. Specializing in Trademark Registration, Section 9/11 Objection Replies, Trade Marks Registry Hearings, Copyright, Patent Drafting, Design Protection, and Delhi High Court Commercial Litigation.',
+    identifier: '1097941121254250819',
+    branchCode: '04977272213376957575',
     url: baseUrl,
     logo: `${baseUrl}/logo.png`,
     image: `${baseUrl}/team/advocate-rahimullah-ansari.jpg`,
@@ -262,6 +264,8 @@ export default function SeoSchema() {
     worksFor: {
       '@type': 'LegalService',
       name: 'TRADEMARK EXPERT INDIA',
+      identifier: '1097941121254250819',
+      branchCode: '04977272213376957575',
       url: baseUrl,
     },
     address: {
@@ -291,6 +295,8 @@ export default function SeoSchema() {
     worksFor: {
       '@type': 'LegalService',
       name: 'TRADEMARK EXPERT INDIA',
+      identifier: '1097941121254250819',
+      branchCode: '04977272213376957575',
       url: baseUrl,
     },
     address: {

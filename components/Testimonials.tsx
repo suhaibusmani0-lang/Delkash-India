@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Star, Quote, CheckCircle } from 'lucide-react';
+import { Star, Quote, CheckCircle, ExternalLink, MapPin } from 'lucide-react';
 import TiltCard from './ui/TiltCard';
 
 const reviews = [
@@ -54,6 +54,81 @@ export default function Testimonials() {
           <p className="text-slate-400 text-sm sm:text-base mt-2">
             Authentic feedback from real business owners and legal reviewers on Google Reviews.
           </p>
+        </div>
+
+        {/* Google Business Profile Live Rating Badge Card */}
+        <div className="mb-12 max-w-4xl mx-auto">
+          <TiltCard glowColor="rgba(66, 133, 244, 0.25)">
+            <div className="rounded-2xl bg-navy-900/90 border border-slate-700/80 p-6 sm:p-8 shadow-2xl backdrop-blur-xl flex flex-col md:flex-row items-center justify-between gap-6">
+              <div className="flex items-center space-x-4 text-left">
+                {/* Official Google Icon */}
+                <div className="w-14 h-14 rounded-2xl bg-white p-2.5 flex items-center justify-center shadow-lg shrink-0">
+                  <svg className="w-full h-full" viewBox="0 0 24 24">
+                    <path
+                      fill="#4285F4"
+                      d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+                    />
+                    <path
+                      fill="#34A853"
+                      d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                    />
+                    <path
+                      fill="#FBBC05"
+                      d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"
+                    />
+                    <path
+                      fill="#EA4335"
+                      d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"
+                    />
+                  </svg>
+                </div>
+
+                <div>
+                  <div className="flex items-center space-x-2 flex-wrap">
+                    <h3 className="font-serif text-lg sm:text-xl font-bold text-white">
+                      TRADEMARK EXPERT INDIA
+                    </h3>
+                    <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-blue-500/20 text-blue-400 border border-blue-500/30">
+                      ✓ Google Verified Business
+                    </span>
+                  </div>
+                  <div className="flex items-center space-x-2 mt-1">
+                    <div className="flex space-x-0.5 text-amber-400">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-4 h-4 fill-current" />
+                      ))}
+                    </div>
+                    <span className="text-white font-bold text-sm">5.0 Star</span>
+                    <span className="text-slate-400 text-xs">• Law Firm in New Delhi</span>
+                  </div>
+                  <div className="text-[11px] text-slate-400 mt-1 font-mono">
+                    Google Profile ID: <span className="text-gold-400">1097941121254250819</span> &bull; Shop Code: <span className="text-gold-400">04977272213376957575</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-wrap sm:flex-nowrap gap-2.5 shrink-0 w-full md:w-auto">
+                <a
+                  href="https://maps.google.com/?cid=1097941121254250819"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs uppercase tracking-wider transition-all shadow-lg hover:shadow-blue-500/25 flex items-center justify-center space-x-1.5"
+                >
+                  <ExternalLink className="w-3.5 h-3.5" />
+                  <span>View Live on Google</span>
+                </a>
+                <a
+                  href="https://maps.google.com/?cid=1097941121254250819"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-gold-500/20 hover:bg-gold-500 text-gold-300 hover:text-navy-950 border border-gold-500/40 font-bold text-xs uppercase tracking-wider transition-all flex items-center justify-center space-x-1.5"
+                >
+                  <Star className="w-3.5 h-3.5 fill-current" />
+                  <span>Write a Review</span>
+                </a>
+              </div>
+            </div>
+          </TiltCard>
         </div>
 
         {/* Reviews Grid with 3D TiltCards */}
