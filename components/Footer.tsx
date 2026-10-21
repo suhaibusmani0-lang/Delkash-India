@@ -148,6 +148,25 @@ export default function Footer() {
               <div>
                 <p className="font-semibold text-gold-400">South Delhi Head Office (GMB Listed):</p>
                 <p className="text-slate-400">Upper Ground Floor, Office No 2, C-326, Okhla Head Rd, Near UBI, Okhla Village, Jamia Nagar, New Delhi 110025</p>
+                <div className="flex items-center space-x-2 mt-1">
+                  <a
+                    href="https://share.google/D303TMPd0X4Y2xPLY"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gold-400 hover:underline text-[10px] inline-flex items-center"
+                  >
+                    Google Maps Listing →
+                  </a>
+                  <span className="text-slate-600">•</span>
+                  <a
+                    href="https://g.page/r/CQuKccIgeKAFEBM/review"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gold-400 hover:underline text-[10px] inline-flex items-center"
+                  >
+                    Write a Review ★
+                  </a>
+                </div>
               </div>
               <div>
                 <p className="font-semibold text-gold-400">Registry & High Court Jurisdiction:</p>

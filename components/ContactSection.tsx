@@ -161,20 +161,30 @@ export default function ContactSection() {
             {/* Dual Location Map with Quick Switcher */}
             <div className="space-y-2">
               <div className="flex items-center justify-between text-[11px] px-1 text-slate-300">
-                <span className="font-semibold text-gold-400">Google Business (GMB: 1097941121254250819):</span>
-                <a
-                  href="https://www.google.com/maps/search/?api=1&query=Trademark+Expert+India+Okhla+Head+Rd+Jamia+Nagar+New+Delhi+110025"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gold-400 hover:text-white transition-colors underline font-medium"
-                >
-                  Open in Google Maps →
-                </a>
+                <span className="font-semibold text-gold-400">Google Business (GMB Verified):</span>
+                <div className="flex items-center space-x-3">
+                  <a
+                    href="https://www.google.com/maps?hl=en&um=1&ie=UTF8&fb=1&gl=in&sa=X&geocode=Kb_BqgTR5Qw5MQuKccIgeKAF&daddr=upper+ground+floor,+Office+No+2,+C-+326,+Okhla+Head+Rd,+near+UBI,+Okhla+Village,+New+Delhi,+Delhi+110025"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-300 hover:text-gold-400 transition-colors underline font-medium"
+                  >
+                    Get Directions →
+                  </a>
+                  <a
+                    href="https://share.google/D303TMPd0X4Y2xPLY"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gold-400 hover:text-white transition-colors underline font-medium"
+                  >
+                    Open in Google Maps →
+                  </a>
+                </div>
               </div>
               <div className="rounded-xl overflow-hidden border border-slate-800 h-44 w-full shadow-inner relative">
                 <iframe
                   title="Trademark Expert India Google My Business Location"
-                  src="https://maps.google.com/maps?q=Trademark+Expert+India,+C-326,+Okhla+Head+Rd,+near+UBI,+Jamia+Nagar,+New+Delhi+110025&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?cid=362985183389034501&t=&z=16&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

@@ -63,7 +63,7 @@ export default function ReviewsPage() {
 
               <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=Trademark+Expert+India+Okhla+Head+Rd+Jamia+Nagar+New+Delhi+110025"
+                  href="https://share.google/D303TMPd0X4Y2xPLY"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-bold uppercase tracking-wider text-xs rounded-xl transition-all shadow-lg hover:shadow-blue-500/25 text-center flex items-center justify-center space-x-1.5"
@@ -72,7 +72,7 @@ export default function ReviewsPage() {
                   <span>Verify on Google (GMB)</span>
                 </a>
                 <a
-                  href="https://www.google.com/search?q=Trademark+Expert+India+New+Delhi+Reviews"
+                  href="https://g.page/r/CQuKccIgeKAFEBM/review"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-3.5 bg-gold-500 hover:bg-gold-400 text-navy-950 font-bold uppercase tracking-wider text-xs rounded-xl transition-all shadow-lg hover:shadow-gold-500/25 text-center"
@@ -98,19 +98,29 @@ export default function ReviewsPage() {
                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
                 <span>Live Google Maps &amp; Reviews Embed (GMB ID: 1097941121254250819)</span>
               </div>
-              <a
-                href="https://www.google.com/maps/search/?api=1&query=Trademark+Expert+India+Okhla+Head+Rd+Jamia+Nagar+New+Delhi+110025"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs text-gold-400 hover:text-white transition-colors underline font-medium"
-              >
-                Open Full Screen on Google Maps &rarr;
-              </a>
+              <div className="flex items-center space-x-3 text-xs">
+                <a
+                  href="https://www.google.com/maps?hl=en&um=1&ie=UTF8&fb=1&gl=in&sa=X&geocode=Kb_BqgTR5Qw5MQuKccIgeKAF&daddr=upper+ground+floor,+Office+No+2,+C-+326,+Okhla+Head+Rd,+near+UBI,+Okhla+Village,+New+Delhi,+Delhi+110025"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-300 hover:text-gold-400 transition-colors underline font-medium"
+                >
+                  Get Directions →
+                </a>
+                <a
+                  href="https://share.google/D303TMPd0X4Y2xPLY"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gold-400 hover:text-white transition-colors underline font-medium"
+                >
+                  Open Full Screen on Google Maps &rarr;
+                </a>
+              </div>
             </div>
             <div className="rounded-xl overflow-hidden border border-slate-700/60 h-80 sm:h-96 w-full shadow-inner relative">
               <iframe
                 title="TRADEMARK EXPERT INDIA Live Google Business Profile and Reviews"
-                src="https://maps.google.com/maps?q=Trademark+Expert+India,+C-326,+Okhla+Head+Rd,+near+UBI,+Jamia+Nagar,+New+Delhi+110025&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?cid=362985183389034501&t=&z=16&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
