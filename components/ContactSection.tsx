@@ -163,7 +163,7 @@ export default function ContactSection() {
               <div className="flex items-center justify-between text-[11px] px-1 text-slate-300">
                 <span className="font-semibold text-gold-400">Google Business (GMB: 1097941121254250819):</span>
                 <a
-                  href="https://maps.google.com/?cid=1097941121254250819"
+                  href="https://www.google.com/maps/search/?api=1&query=Trademark+Expert+India+Okhla+Head+Rd+Jamia+Nagar+New+Delhi+110025"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gold-400 hover:text-white transition-colors underline font-medium"
@@ -174,7 +174,7 @@ export default function ContactSection() {
               <div className="rounded-xl overflow-hidden border border-slate-800 h-44 w-full shadow-inner relative">
                 <iframe
                   title="Trademark Expert India Google My Business Location"
-                  src="https://maps.google.com/maps?cid=1097941121254250819&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=Trademark+Expert+India,+C-326,+Okhla+Head+Rd,+near+UBI,+Jamia+Nagar,+New+Delhi+110025&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

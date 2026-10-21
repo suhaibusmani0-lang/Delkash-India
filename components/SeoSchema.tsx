@@ -65,9 +65,9 @@ export default function SeoSchema() {
       latitude: 28.5616,
       longitude: 77.2882,
     },
-    hasMap: 'https://maps.google.com/?cid=1097941121254250819',
+    hasMap: 'https://www.google.com/maps/search/?api=1&query=Trademark+Expert+India+Okhla+Head+Rd+Jamia+Nagar+New+Delhi+110025',
     sameAs: [
-      'https://maps.google.com/?cid=1097941121254250819',
+      'https://www.google.com/maps/search/?api=1&query=Trademark+Expert+India+Okhla+Head+Rd+Jamia+Nagar+New+Delhi+110025',
       'https://www.facebook.com/delkashassociates/',
       'https://www.instagram.com/trademarkexpertindia?obrf=b2pmbGlzZHhzcmh4',
       'https://www.linkedin.com/company/delkash-associates-law-firm/',

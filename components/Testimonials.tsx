@@ -109,7 +109,7 @@ export default function Testimonials() {
 
               <div className="flex flex-wrap sm:flex-nowrap gap-2.5 shrink-0 w-full md:w-auto">
                 <a
-                  href="https://maps.google.com/?cid=1097941121254250819"
+                  href="https://www.google.com/maps/search/?api=1&query=Trademark+Expert+India+Okhla+Head+Rd+Jamia+Nagar+New+Delhi+110025"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs uppercase tracking-wider transition-all shadow-lg hover:shadow-blue-500/25 flex items-center justify-center space-x-1.5"
@@ -118,7 +118,7 @@ export default function Testimonials() {
                   <span>View Live on Google</span>
                 </a>
                 <a
-                  href="https://maps.google.com/?cid=1097941121254250819"
+                  href="https://www.google.com/search?q=Trademark+Expert+India+New+Delhi+Reviews"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-gold-500/20 hover:bg-gold-500 text-gold-300 hover:text-navy-950 border border-gold-500/40 font-bold text-xs uppercase tracking-wider transition-all flex items-center justify-center space-x-1.5"
