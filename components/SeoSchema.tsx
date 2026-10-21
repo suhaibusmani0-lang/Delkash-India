@@ -67,7 +67,7 @@ export default function SeoSchema() {
     sameAs: [
       'https://maps.google.com/?cid=1097941121254250819',
       'https://www.facebook.com/delkashassociates/',
-      'https://www.instagram.com/delkash_ipr_law_firm/',
+      'https://www.instagram.com/trademarkexpertindia?obrf=b2pmbGlzZHhzcmh4',
       'https://www.linkedin.com/company/delkash-associates-law-firm/',
       'https://www.youtube.com/@delkashassociatestrademark6944',
       'https://en.wikipedia.org/wiki/Delhi_High_Court',

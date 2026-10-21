@@ -16,7 +16,7 @@ const socialLinks = [
   },
   {
     name: 'Instagram',
-    href: 'https://www.instagram.com/delkash_ipr_law_firm/',
+    href: 'https://www.instagram.com/trademarkexpertindia?obrf=b2pmbGlzZHhzcmh4',
     hoverClass: 'hover:bg-gradient-to-tr hover:from-[#f09433] hover:via-[#dc2743] hover:to-[#bc1888] hover:text-white hover:border-transparent',
     icon: (
       <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
